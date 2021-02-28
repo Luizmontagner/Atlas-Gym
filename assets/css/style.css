@@ -5,6 +5,9 @@ header {
     border: 1px solid black;
 }
 
+.hero-image {
+    border: 1px solid black;
+}
 
 .navbar {
     margin-left: 20px;
@@ -22,11 +25,29 @@ header {
     color: rgb(2, 2, 2);
     background-color: rgba(255, 255, 255, 0.808);
     border-radius: 30px;
+    border: 1px solid black;
 }
 
 /* Cards */
 
+.card-group{
+    margin-top: -15px;
+}
+
+.card-img-top {
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.card-body {
+    border: 1px solid black;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    border-radius: 30px;
+}
+
 .card-title {
+    font-size: 22px;
     background-color: #737373;
     font-family: 'Anton', sans-serif;
     color: #fff;
@@ -34,7 +55,7 @@ header {
     border-radius: 30px;
     height: 30px;
     text-align: center;
-    padding: 3px;
+    padding: 2px;
     border: 1px solid black;
 }
 
@@ -51,11 +72,25 @@ header {
 
 
 
-/* Footer social media */
+/* Footer*/
 
 footer {
     background-color: #737373;
     border: 1px solid black;
+}
+
+/* Footer logo*/
+
+.footer-logo{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+
+/* Social media*/
+
+.social-media {
+   
 }
 
 i {
@@ -67,3 +102,4 @@ i {
 i:hover {
     color: rgb(2, 2, 2);  
 }
+
