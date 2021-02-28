@@ -2,6 +2,7 @@
 
 header {
     background-color: #737373;
+    border: 1px solid black;
 }
 
 
@@ -34,9 +35,16 @@ header {
     height: 30px;
     text-align: center;
     padding: 3px;
+    border: 1px solid black;
 }
 
 .card-text {
+    /* margin-top: -10px; */
+    font-weight: 400;
+    letter-spacing: 1px;
+    background-color: #a6a6a6;
+    border-radius: 30px;
+    border: 1px solid black;
     font-family: 'Roboto', sans-serif;
     list-style-image: linear-gradient(to left bottom, #fff, #737373);
 }
@@ -47,6 +55,7 @@ header {
 
 footer {
     background-color: #737373;
+    border: 1px solid black;
 }
 
 i {
