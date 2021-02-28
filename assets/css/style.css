@@ -33,8 +33,14 @@ header {
     border-radius: 30px;
     height: 30px;
     text-align: center;
-    padding: 2px;
+    padding: 3px;
 }
+
+.card-text {
+    font-family: 'Roboto', sans-serif;
+    list-style-image: linear-gradient(to left bottom, #fff, #737373);
+}
+
 
 
 /* Footer social media */
