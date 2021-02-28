@@ -4,6 +4,7 @@ header {
     background-color: #737373;
 }
 
+
 .navbar {
     margin-left: 20px;
 }
@@ -18,7 +19,23 @@ header {
 
 .menu:hover {
     color: rgb(2, 2, 2);
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius: 30px;
 }
+
+/* Cards */
+
+.card-title {
+    background-color: #737373;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 2px;
+}
+
 
 /* Footer social media */
 
@@ -33,5 +50,5 @@ i {
 }
 
 i:hover {
-    color: rgb(2, 2, 2);
+    color: rgb(2, 2, 2);  
 }
