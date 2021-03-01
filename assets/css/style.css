@@ -29,10 +29,11 @@ header {
 }
 
 .join-menu:hover {
-    background-color: yellow;
-    color: rgb(2, 2, 2);
+    background-color: red;
+    color: #fff;
     border-radius: 30px;
     border: 1px solid black;
+    font-size: 23px;
 }
 
 /* Cards */
@@ -95,6 +96,21 @@ footer {
 
 
 /* Social media*/
+
+.join-footer {
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.join-footer:hover {
+    background-color: red;
+    color: #fff;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-left: 40%;
+    margin-right: 40%;
+}
 
 .sub-heading {
     font-family: 'Anton', sans-serif;
