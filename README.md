@@ -45,14 +45,15 @@ Credits
 - Info about facilities.
 - Contat details easy to find.
 - A website should be self intuitive.
+- Website should exib all services provided.
 
 ---
 
 ## User Stories
 
-- As a user, I want to be able to easily find the contact details from the property.
+- As a user, I want to be able to easily find the contact details from the business.
 - As a user, I want to find information about the policies and prices.
-- As a user, I want to see various images about the facilities
+- As a user, I want to see various images about the facilities.
 - As a user, I want to find easily where the gym is located and if I can easily park my car.
 - As a user, it is important to me that the website is easy and simple to use.
 - As a user, I want the websit to work well on mobile and tablets.
