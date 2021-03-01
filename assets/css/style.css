@@ -28,6 +28,13 @@ header {
     border: 1px solid black;
 }
 
+.join-menu:hover {
+    background-color: yellow;
+    color: rgb(2, 2, 2);
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
 /* Cards */
 
 .card-group{
