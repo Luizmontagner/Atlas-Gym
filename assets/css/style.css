@@ -1,7 +1,7 @@
 /* Header */
 
 header {
-    background-color: #737373;
+    background-color: black;
     border: 1px solid black;
 }
 
@@ -68,12 +68,12 @@ header {
 }
 
 .card-text {
-    /* margin-top: -10px; */
     font-weight: 400;
     letter-spacing: 1px;
-    background-color: #a6a6a6;
+    background-color: black;
+    color: white;
     border-radius: 30px;
-    border: 1px solid black;
+    border: 1rem solid red;
     font-family: 'Roboto', sans-serif;
     list-style-image: linear-gradient(to left bottom, #fff, #737373);
 }
@@ -83,23 +83,21 @@ header {
 /* Footer*/
 
 footer {
-    background-color: #737373;
+    background-color: black;
     border: 1px solid black;
 }
 
-/* Footer logo*/
-
-.footer-logo{
-    margin-left: 20px;
-    margin-top: 50px;
-}
-
-
-/* Social media*/
+/* Join footer*/
 
 .join-footer {
+    background-color: #737373;
     text-align: center;
     font-size: 30px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 5px;
+    border-radius: 30px;
+    border: 1px solid black;
     
 }
 
@@ -110,12 +108,20 @@ footer {
     border: 1px solid black;
     margin-left: 40%;
     margin-right: 40%;
+    font-size: 33px;
+}
+
+/* Social media*/
+
+.social-media{
+    background-color: black;
 }
 
 .sub-heading {
     font-family: 'Anton', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
+    background-color: black;
     color: #fff;
     text-align: center;
     letter-spacing: 5px;
@@ -123,12 +129,13 @@ footer {
 }
 
 i {
+    background-color: black;
     color: #fff;
     margin-bottom: 50px;
     margin-left: 20px;
 }
 
 i:hover {
-    color: rgb(2, 2, 2);  
+    color: red;  
 }
 
