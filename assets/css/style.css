@@ -89,8 +89,14 @@ footer {
 
 /* Social media*/
 
-.social-media {
-   
+.sub-heading {
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-left: 2%;
 }
 
 i {
