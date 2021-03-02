@@ -26,7 +26,7 @@ header {
 }
 
 .join-menu:hover {
-    background-color: #e60000;
+    background-image: linear-gradient(300deg, #c90000 10%, #000000 90%);
     color: #fff;
     border-radius: 30px;
     border: 1px solid black;
@@ -77,8 +77,25 @@ header {
 /* Contact and Address*/
 
 .contact{
-    background-color: #000000;
-    background-image: linear-gradient(315deg, #000000 0%, #414141 74%); 
+    background-color: black;
+    margin-top: -15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+
+
+#contact {
+   color: #fff;
+   text-decoration: none;
+   text-transform: lowercase;
+}
+
+#contact:hover {
+    text-decoration: underline;
 }
 
 /* Footer*/
@@ -104,8 +121,8 @@ footer {
 }
 
 .join-footer:hover {
-    background-color: #e60000;
-    color: #fff;
+    background-image: linear-gradient(300deg, #c90000 10%, #000000 90%);
+    color: black;
     border-radius: 30px;
     border: 1px solid black;
     margin-left: 40%;
