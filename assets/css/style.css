@@ -33,21 +33,29 @@ header {
     font-size: 23px;
 }
 
-/* Cards */
+/* Hero image */
 
-.card {
-    background-color: blue;
+.hero-image{
+    border: 1px solid black;
 }
 
-.card-group{
-    margin-top: -15px;
-    background-color: chartreuse;
+/* Cards */
+
+.bg-cards {
+    border: 2px solid black;
+    margin-top: -10px;
+    background-image: linear-gradient(to top right, rgb(240, 29, 29), rgb(193, 23, 24), rgb(146, 17, 19), rgb(99, 12, 13), rgb(52, 6, 8), rgb(5, 0, 3), rgb(44, 5, 7), rgb(83, 10, 12), rgb(123, 15, 16), rgb(162, 19, 20), rgb(201, 24, 25), rgb(240, 29, 29));    border: 1px solid black;
+}
+
+.card-img-top {
+    margin-top: 10px;
+    border: 2px solid black;
 }
 
 .card-body {
-    background-color: #e60000;
+    background-image: linear-gradient(to top right, rgb(240, 29, 29), rgb(193, 23, 24), rgb(146, 17, 19), rgb(99, 12, 13), rgb(52, 6, 8), rgb(5, 0, 3), rgb(44, 5, 7), rgb(83, 10, 12), rgb(123, 15, 16), rgb(162, 19, 20), rgb(201, 24, 25), rgb(240, 29, 29));
     border: 1rem solid;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     margin-top: 2px;
     
 }
@@ -66,6 +74,7 @@ header {
 }
 
 .card-text {
+    text-align: center;
     font-weight: 600;
     letter-spacing: 1px;
     background-color: black;
@@ -147,14 +156,16 @@ a{
     font-family: 'Anton', sans-serif;    
     letter-spacing: 3px;
     padding: 5px;
+    text-decoration: none;
 }
 
 .join-footer:hover {
+    color: aqua;
     background-color: black;
-    color: black;
     border-radius: 30px;
     border: 2px solid black;
     font-size: 33px;
+    text-decoration: none;
     
 }
 
