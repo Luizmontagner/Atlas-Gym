@@ -44,20 +44,12 @@ header {
 .bg-cards {
     border: 2px solid black;
     margin-top: -10px;
-    background-image: linear-gradient(to top right, rgb(240, 29, 29), rgb(193, 23, 24), rgb(146, 17, 19), rgb(99, 12, 13), rgb(52, 6, 8), rgb(5, 0, 3), rgb(44, 5, 7), rgb(83, 10, 12), rgb(123, 15, 16), rgb(162, 19, 20), rgb(201, 24, 25), rgb(240, 29, 29));    border: 1px solid black;
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(48, 0, 0), rgb(96, 0, 0), rgb(144, 0, 0), rgb(192, 0, 0), rgb(240, 0, 0), rgb(200, 0, 0), rgb(160, 0, 0), rgb(120, 0, 0), rgb(80, 0, 0), rgb(40, 0, 0), rgb(0, 0, 0));    border: 1px solid black;
 }
 
 .card-img-top {
     margin-top: 10px;
-    border: 2px solid black;
-}
-
-.card-body {
-    background-image: linear-gradient(to top right, rgb(240, 29, 29), rgb(193, 23, 24), rgb(146, 17, 19), rgb(99, 12, 13), rgb(52, 6, 8), rgb(5, 0, 3), rgb(44, 5, 7), rgb(83, 10, 12), rgb(123, 15, 16), rgb(162, 19, 20), rgb(201, 24, 25), rgb(240, 29, 29));
-    border: 1rem solid;
-    margin-bottom: 10px;
-    margin-top: 2px;
-    
+    border: 0.5rem solid black;
 }
 
 .card-title {
@@ -73,7 +65,16 @@ header {
     border: 1px solid black;
 }
 
+.card-body {
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(48, 0, 0), rgb(96, 0, 0), rgb(144, 0, 0), rgb(192, 0, 0), rgb(240, 0, 0), rgb(200, 0, 0), rgb(160, 0, 0), rgb(120, 0, 0), rgb(80, 0, 0), rgb(40, 0, 0), rgb(0, 0, 0));    border: 1rem solid;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    border-radius: 5%;
+    
+}
+
 .card-text {
+    border-radius: 5%;
     text-align: center;
     font-weight: 600;
     letter-spacing: 1px;
@@ -115,15 +116,15 @@ a{
 }
 
 .fa-whatsapp:hover {
-    color: red;
+    color: rgba(206, 195, 195, 0.829);
 }
 
 .fa-instagram:hover {
-    color: red;
+    color: rgba(206, 195, 195, 0.829);
 }
 
 .fa-facebook:hover {
-    color: red;
+    color: rgba(206, 195, 195, 0.829);
 }
 
 #hr {
@@ -138,8 +139,8 @@ a{
 
 /* Contact and Address*/
 
-.contact {
-    display: block;
+.contact-box-right {
+    margin-bottom: -30px;
 }
 
 /* Join Button*/
