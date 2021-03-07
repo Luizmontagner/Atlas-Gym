@@ -1,5 +1,3 @@
-
-
 /* Header */
 
 header {
@@ -9,7 +7,7 @@ header {
 
 
 .navbar {
-    margin-left: 20px;
+    margin-left: 20px;W
 }
 
 .menu {
@@ -47,12 +45,11 @@ header {
 
 .bg-cards {
     border: 2px solid black;
-    margin-top: -10px;
+    margin-top: -55px;
     background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(48, 0, 0), rgb(96, 0, 0), rgb(144, 0, 0), rgb(192, 0, 0), rgb(240, 0, 0), rgb(200, 0, 0), rgb(160, 0, 0), rgb(120, 0, 0), rgb(80, 0, 0), rgb(40, 0, 0), rgb(0, 0, 0));    border: 1px solid black;
 }
 
 .card-img-top {
-    margin-top: 10px;
     border: 0.5rem solid black;
 }
 
@@ -187,3 +184,49 @@ footer {
 }
 
 
+/* Join Now Form*/
+
+.form-heading{
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.form-paragraph{
+    color: #fff;
+    margin-left: 20px;
+}
+
+.form-name{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    width: 50px;
+    
+}
+
+.form-email{
+    
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.form-phone-number{
+    
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.textarea{
+        
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+#btn-submit{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
