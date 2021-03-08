@@ -242,6 +242,11 @@ footer {
 
 /* Gallery*/
 
+#gallery{
+    margin-top: 5px;
+    width: 100%;
+}
+
 .gallery-pictures {
-    margin-top: 10px;
+    margin-bottom: 5px;
 }
