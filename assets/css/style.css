@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
 /* Header */
 
 header {
@@ -276,4 +282,8 @@ footer {
 
 .gallery-pictures {
     margin-bottom: 5px;
+}
+
+.img-fluid{
+    height: 100px;
 }
