@@ -136,8 +136,21 @@ header {
 
 /* Contact and Address*/
 
-.contact-box-right {
-    margin-bottom: -30px;
+.fa-mobile{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.fa-phone{ 
+    margin-bottom: 15px;
+}
+
+.addres{
+    margin-top: 10px;
+}
+
+.contact{
+    display: block;
 }
 
 .email {
@@ -166,6 +179,7 @@ header {
     letter-spacing: 3px;
     padding: 3px;
     text-decoration: none;
+    margin-bottom: 10px;
 }
 
 .join-footer:hover {
