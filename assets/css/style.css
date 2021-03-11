@@ -274,15 +274,15 @@ footer {
 
 /* Gallery*/
 
-#gallery{
-    margin-top: 5px;
-    width: 100%;
+#gallery {
+    margin: 10px;
+
+
 }
 
-.gallery-pictures {
+.gallery{
     margin-bottom: 5px;
-}
-
-.img-fluid{
-    height: 100px;
+    margin-right: 0;
+    margin-top: 0;
+    margin-left: 0;
 }
