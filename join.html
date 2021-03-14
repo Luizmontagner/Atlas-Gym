@@ -16,14 +16,12 @@
 </head>
 
 <body>
-    <!--- Background-image -->
-    <div class="bg-image">
 
 
     <!--- Header Menu -->
 <header class="bg-gradient">
     <nav class="navbar">
-        <a href="index.html" aria-label="logo"><img src="assets/images/logo.png"  alt="Atlas Gym"></a>
+        <a href="index.html" aria-label="logo"><img src="assets/images/logo.png"  alt="Atlas Gym Logo"></a>
             <div>
                 <ul class="nav justify-content-end logo">
                     <li class="nav-item">
@@ -42,7 +40,7 @@
 
 
 <!--- Contact Form-->
-<form>
+<form class="bg-image">
 <div class="col-md-12 form-bg">
     <h1 class="form-heading">Join Now!</h1>
         <p class="form-paragraph ">* Fill out your information below and a member of our team will contact you shortly.</p>
@@ -54,13 +52,16 @@
         <div class="col-md-4 form-name">
             <input class="form-control" type="text" name="name" id="name" placeholder="First Name*" aria-label="First Name" required>
         </div>
+    </div>    
+
+    <div class="row">
         <div class="col-md-4 form-name">
             <input class="form-control" type="text" name="name" id="name" placeholder="Last Name *" aria-label="Last Name" required>
         </div>
-    </div>  
+    </div> 
     
     <div class="row">
-        <div class="col-md-6 form-email">
+        <div class="col-md-4 form-email">
             <input class="form-control" type="email" name="email" id="email" placeholder="Email Address *" aria-label="Email" required>
         </div>
     </div>
@@ -72,7 +73,7 @@
     </div>
 
     <div class="row">
-        <div class="col-md-8  textarea">
+        <div class="col-md-4  textarea">
             <textarea class="form-control" name="message" id="message" cols="50" rows="7" aria-label="write your message here" placeholder=" Write your message here (Optional)"></textarea>
         </div>
     </div>
@@ -84,12 +85,8 @@
     </div> 
 
 </div>
-</div>
-</form>
-    
-       
-    
 
+</form>
 
 
 <!--- Social media-->
@@ -113,10 +110,11 @@
 
                 <div id="hr"></div>
 
-<!--- Contact and Address Information-->
+
+<!---Address Information-->
 
                 <div class="row">
-                    <div class="col-4 text-center">
+                    <div class="col-md-4 text-center address">
                         <h5>Address</h5>
                         <p>1-3 Captain Street Lower,
                             <br>
@@ -127,21 +125,18 @@
                     </div>
                     
 <!--- Join Now Button-->                    
-                    <div class="col-4 text-center">
+                    <div class="col-md-4 text-center">
                             <a class="join-footer" href="join.html">Join Now</a>
-                    </div>                   
-            
-                    <div class="col-4 text-center">
+                    </div>
+
+<!--- Contact Information-->
+
+                    <div class="col-md-4 text-center">
                         <h5>Contact</h5>
-                        <div class="contact-box-right">
-                            <span ><i class="fa fa-mobile"></i> +353 083 123 7654</span>
-                        </div>
-                        <div class="contact-box-right">   
-                            <span><i class="fa fa-phone"></i> +353 01 879 2323</span>
-                        </div> 
-                        <div>    
-                            <span><a class="email" href="mailto:atlas@atlasgym.ie" aria-label="Contact Us"><i class="fa fa-envelope"></i> atlas@atlasgym.ie</a></span>
-                        </div>    
+                        <div>
+                            <span class="contact"><i class="fa fa-mobile"></i> +353 083 123 7654</span>
+                            <span class="contact"><i class="fa fa-phone"></i> +353 01 879 2323</span>
+                            <span class="contact"><a class="email" href="mailto:atlas@atlasgym.ie" aria-label="Contact Us"><i class="fa fa-envelope"></i> atlas@atlasgym.ie</a></span>
                         </div>
                     </div>
                 </div>
@@ -164,6 +159,7 @@
             <a class="col" href="index.html" aria-label="footer"><img src="assets/images/logo.png" alt="Atlas Gym logo"></a>      
         </div>
 </div>
+
 </footer>
 </body>
 </html>

@@ -129,12 +129,11 @@ header {
 
 #hr {
     margin-top: -40px;
-    border: none;
     border-top: 2px double red;
     color: red;
     overflow: visible;
-    text-align: center;
     height: 5px;
+
 }
 
 /* Contact and Address*/
@@ -203,7 +202,7 @@ footer {
  
 .bg-image {
     background-image: url('https://imagizer.imageshack.com/img922/4228/l7HDvR.png'); 
-    height: 65vh;
+    height: 150%;
     background-color: grey;
 }
 
@@ -227,22 +226,22 @@ footer {
 
 .form-name{
     margin-left: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .form-email{
     margin-left: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .form-phone-number{
     margin-left: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .textarea{
     margin-left: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 #btn-submit{
@@ -258,22 +257,23 @@ footer {
 
 #btn-submit:hover{
     font-size: 18px;
-} */
+}
 
 
 
 /* Gallery*/
 
 #gallery {
-    margin: 10px;
-
-
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
 }
 
 .gallery{
     margin-bottom: 5px;
-    margin-right: 0;
-    margin-top: 0;
-    margin-left: 0;
-
 }
+
+/* .gallery-align{
+    padding: 5px;
+} */
