@@ -55,7 +55,7 @@ header {
 }
 
 .card-title {
-    font-size: 22px;
+    font-size: 15px;
     background-color: black;
     font-family: 'Anton', sans-serif;
     color: #fff;
@@ -66,6 +66,16 @@ header {
     padding: 2px;
     border: 1px solid black;
 }
+
+/* @media screen and (min-width: 768px) {
+  #teste {
+    flex: 1 1 auto;
+      
+  }
+} */
+
+ 
+
 
 .card-body {
     background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(48, 0, 0), rgb(96, 0, 0), rgb(144, 0, 0), rgb(192, 0, 0), rgb(240, 0, 0), rgb(200, 0, 0), rgb(160, 0, 0), rgb(120, 0, 0), rgb(80, 0, 0), rgb(40, 0, 0), rgb(0, 0, 0));    border: 1rem solid;
@@ -112,7 +122,6 @@ header {
     color: #fff;
     margin-bottom: 50px;
     margin-left: 20px;
-    text-decoration: none;
 }
 
 .fa-whatsapp:hover {
@@ -156,7 +165,6 @@ header {
 }
 
 .email {
-    text-decoration: none;
     color: #fff;
 }
 
@@ -180,13 +188,11 @@ header {
     font-family: 'Anton', sans-serif;    
     letter-spacing: 3px;
     padding: 3px;
-    text-decoration: none;
     margin-bottom: 10px;
 }
 
 .join-footer:hover {
     font-size: 40px;
-    text-decoration: none;
     color: #fff;
 }
 
@@ -280,4 +286,3 @@ footer {
     margin-bottom: 10px;
     margin-top: 10px;
 }
-
