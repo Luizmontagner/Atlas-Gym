@@ -49,13 +49,16 @@ header {
     background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(48, 0, 0), rgb(96, 0, 0), rgb(144, 0, 0), rgb(192, 0, 0), rgb(240, 0, 0), rgb(200, 0, 0), rgb(160, 0, 0), rgb(120, 0, 0), rgb(80, 0, 0), rgb(40, 0, 0), rgb(0, 0, 0));    border: 1px solid black;
 }
 
-.card-img-top {
+
+
+.card-img {
     margin-top:40px;
     border: 0.5rem solid black;
 }
 
-.card-title {
-    font-size: 15px;
+
+.card-title-align {
+    font-size: 22px;
     background-color: black;
     font-family: 'Anton', sans-serif;
     color: #fff;
@@ -65,27 +68,27 @@ header {
     text-align: center;
     padding: 2px;
     border: 1px solid black;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
 }
 
-/* @media screen and (min-width: 768px) {
-  #teste {
-    flex: 1 1 auto;
-      
-  }
-} */
+@media (min-width: 768px) and (max-width: 1169px) {
+        .card-title-align {
+            height: 50%;
+        }
 
- 
+}
 
-
-.card-body {
+.card-body-align {
     background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(48, 0, 0), rgb(96, 0, 0), rgb(144, 0, 0), rgb(192, 0, 0), rgb(240, 0, 0), rgb(200, 0, 0), rgb(160, 0, 0), rgb(120, 0, 0), rgb(80, 0, 0), rgb(40, 0, 0), rgb(0, 0, 0));    border: 1rem solid;
     margin-bottom: 10px;
     margin-top: 2px;
     border-radius: 5%;
-    
 }
 
-.card-text {
+.card-text-align {
     border-radius: 5%;
     text-align: center;
     font-weight: 600;
@@ -96,6 +99,8 @@ header {
     list-style-image: linear-gradient(to left bottom, #fff, #737373);
     line-height: 2em;
     text-shadow: 2px 4px 3px #eee;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 /* Social media*/
