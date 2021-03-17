@@ -129,10 +129,10 @@ header {
 }
 
 #hr {
+    margin-left: 10px;
     margin-top: -40px;
     border-top: 2px double red;
     color: red;
-    overflow: visible;
     height: 5px;
 
 }
@@ -280,16 +280,16 @@ footer {
 }
 
 
-/* @media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
   
-    header{
-        margin-left: 0px;
-        
+    .flex-row-reverse{
+        margin-left: 0;
+        margin-right: 0;
+        letter-spacing: 3px;
     }
 
-    #media-align {
-        margin-top: 20px;
-        margin-left: -16px;
-        text-align: center;
+    #logo-align {
+        display: none;
     }
-} */
+
+}
