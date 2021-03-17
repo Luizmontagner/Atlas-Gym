@@ -14,6 +14,17 @@ header {
     margin-right: 20px;
 }
 
+.justify-content-end{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    letter-spacing: 3px;
+}
+
+.justify-content-start{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
 .menu:hover {
     color: #fff;
     text-decoration: underline;
@@ -280,7 +291,7 @@ footer {
 }
 
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   
     .flex-row-reverse{
         margin-left: 0;
@@ -293,3 +304,9 @@ footer {
     }
 
 }
+
+.m-right{
+    display: inline;
+    float: right;
+
+} */
