@@ -285,7 +285,7 @@ footer {
 }
 
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   
     header{
         margin-left: 0px;
@@ -297,4 +297,4 @@ footer {
         margin-left: -16px;
         text-align: center;
     }
-}
+} */
