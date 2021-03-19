@@ -323,6 +323,8 @@ footer {
     letter-spacing: 3px;
 }
 
+ }
+
  @media screen and (max-width: 320px) {
   
 .header-logo{
@@ -333,4 +335,6 @@ footer {
 .menu{
     margin-left: -30apx;
     letter-spacing: 1px;
+}
+
 }
