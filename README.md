@@ -1,10 +1,5 @@
-
-![Wireframe](https://i.imgur.com/n7F0UTK.png)
-
-<!-- Heading -->
 # Atlas-Gym
- 
-<!-- mokeup image -->
+![Wireframe](https://i.imgur.com/n7F0UTK.png)
 
 ## Goal for this project
 
@@ -14,12 +9,74 @@ On this site you can find all the relevant information you need about membership
  The website provides pictures of the facilities and modalities so that the visitors find all the necessary information easily.
 
 ---
+<a></a>
+## Table of contents 
+* [UX](#ux)
+    * [User Goals](#user-goals)
+    * [User Stories](#user-stories)
+    * [Site Owners Goals](#site-owners-goals)
+    * [User Requirements and Expectations](#user-requirements-and-expectations)
+        * [Requirements](#requirements)
+        * [Expectations](#expectations)
+    * [Design Choices](#design-choices)
+        * [Fonts](#fonts)
+        * [Icons](#icons)
+        * [Colors](#colors)
+        * [Structure](#structure)
+* [Wireframes](#wireframes)
+* [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Features to be implemented](#features-to-be-implemented)
+* [Technologies used](#technologies-used)
+    * [Languages](#languages)
+    * [Tools and Libraries](#tools-and-libraries)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
 
-## Table of contents
- ### UX
- * User Goals
- * User Stories
- * Site Owners Goals
+
+<a name="ux"></a>
+ ## UX 
+ ###  **User Goals**
+
+- A website filled with valuable content.
+- Website should be easy to use on desktop, tablet & mobile.
+- Info about facilities.
+- Contat details easy to find.
+- A website should be self intuitive.
+- Website should exib all services provided.
+
+[Back to Top](#table-of-contents)
+
+### **User Stories**
+
+- As a user, I want to be able to easily find the contact details from the business.
+- As a user, I want to find information about the policies and prices.
+- As a user, I want to see various images about the facilities.
+- As a user, I want to find easily where the gym is located and if I can easily park my car.
+- As a user, it is important to me that the website is easy and simple to use.
+- As a user, I want the websit to work well on mobile and tablets.
+- As a user, I want to find the contact details quickly, otherwise I will be tempted to book somewhere else.
+- As a user, I expect that there are links to social media that open in separate tabs.
+- As a user, I want to know if any medical exam is required before to start a plan.
+- As a user, I want to know about memberships.
+- As a user, I want to know about classes avaible.
+
+ **Site Owners Goals**
+
+
+---
+
+
+
+
+
+---
+
+
+
+
+ 
  * User Requirements and Expectations
      * Requirements
 Expectations
@@ -40,32 +97,7 @@ Deployment
 Credits
 ---
 
-## UX
-### User Goals
 
-- A website filled with valuable content.
-- Website should be easy to use on desktop, tablet & mobile.
-- Info about facilities.
-- Contat details easy to find.
-- A website should be self intuitive.
-- Website should exib all services provided.
-
----
-
-## User Stories
-
-- As a user, I want to be able to easily find the contact details from the business.
-- As a user, I want to find information about the policies and prices.
-- As a user, I want to see various images about the facilities.
-- As a user, I want to find easily where the gym is located and if I can easily park my car.
-- As a user, it is important to me that the website is easy and simple to use.
-- As a user, I want the websit to work well on mobile and tablets.
-- As a user, I want to find the contact details quickly, otherwise I will be tempted to book somewhere else.
-- As a user, I expect that there are links to social media that open in separate tabs.
-- As a user, I want to know if any medical exam is required before to start a plan.
-- As a user, I want to know about memberships.
-- As a user, I want to know about classes avaible.
----
 
 ## Site owners Goals
 
