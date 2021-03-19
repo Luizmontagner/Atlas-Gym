@@ -1,3 +1,6 @@
+
+![Wireframe](https://i.imgur.com/n7F0UTK.png)
+
 <!-- Heading -->
 # Atlas-Gym
  
