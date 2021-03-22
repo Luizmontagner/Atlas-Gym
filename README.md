@@ -53,36 +53,56 @@ On this site you can find all the relevant information you need about membership
 - As a user, I want to be able to easily find the contact details from the business.
 - As a user, I want to find information about the policies and prices.
 - As a user, I want to see various images about the facilities.
-- As a user, I want to find easily where the gym is located and if I can easily park my car.
+- As a user, I want to find easily where the gym is located and if I can easily park.
 - As a user, it is important to me that the website is easy and simple to use.
-- As a user, I want the websit to work well on mobile and tablets.
+- As a user, I want the website to work well on mobile and tablets.
 - As a user, I want to find the contact details quickly, otherwise I will be tempted to book somewhere else.
 - As a user, I expect that there are links to social media that open in separate tabs.
-- As a user, I want to know if any medical exam is required before to start a plan.
 - As a user, I want to know about memberships.
 - As a user, I want to know about classes avaible.
 
  **Site Owners Goals**
 
+- Adverstise Atlas Gym.
+- Bring new costumers to the facilities.
+- Bring visitors to social media.
+- Stand out from the competition.
 
----
-
-
-
-
-
----
-
-
-
-
+[Back to Top](#table-of-contents)
  
- * User Requirements and Expectations
-     * Requirements
-Expectations
-Design Choices
-Fonts
-Icons
+### **User Requirements and Expectations**
+
+#### **Requirements**
+
+- Easy to navigate by using the navigation menu.
+- relevant content about facilities.
+- Appealing visual elements.
+- Clear information about prices and policies.
+
+#### **Expectations**
+
+- When clicking on links (like social media), I expect the page to open in a seperate browser.
+- I expect that the navigation links work properly so that is takes me wherever I want to go.
+- Clear info about location.
+- Website is in line with the customer's journey.
+
+[Back to Top](#table-of-contents)
+
+### **Design Choices**
+
+As soon as I decided the gym's name I built the logo using [Canva](https://www.canva.com/ "Canva") and decided that I would be using dark colors. I have used [Color Hex](https://www.color-hex.com/ "Color Hex") to find appropriate colors.
+
+#### Fonts
+
+Since I used a [Canva](https://www.canva.com/ "Canva") font called "Colo Pro" in my hero image and the header logo image, I visited [Google Fonts](https://fonts.google.com/ "Google Fonts") and found a font called "Anton" that subtly fit the rest of the site. In the text of the cards, I used the font "Roboto" which the own [Google Fonts] (https://fonts.google.com/ "Google Fonts") suggested as a good combination to use with the "Anton" font. 
+
+#### Icons
+
+
+
+
+
+
 Colors
 Structure
 Wireframes
@@ -98,32 +118,10 @@ Credits
 ---
 
 
-
-## Site owners Goals
-
-- Adverstise Gym. 
-- increase number of members.
-- show to costumers the differential from our gym.
-
----
-
 ## User Requirements and Expectations
 
 
 
-### Requirements
-
-- Easy to navigate by using the navigation menu.
-- relevant content about facilities.
-- Appealing visual elements.
-- Clear information about prices and policies.
-
-### Expectations
-
-- When clicking on links (like social media), I expect the page to open in a seperate browser.
-- I expect that the navigation links work properly so that is takes me wherever I want to go.
-- Clear info about location.
-- Website is in line with the customer's journey.
 
 ---
 
