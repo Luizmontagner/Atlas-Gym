@@ -90,21 +90,36 @@ On this site you can find all the relevant information you need about membership
 
 ### **Design Choices**
 
-As soon as I decided the gym's name I built the logo using [Canva](https://www.canva.com/ "Canva") and decided that I would be using dark colors. I have used [Color Hex](https://www.color-hex.com/ "Color Hex") to find appropriate colors.
+As soon as I decided the gym's name I built the logo using [Canva](https://www.canva.com/ "Canva") and decided that I would be using dark colors. I have used [Color Hex](https://www.color-hex.com/ "Color Hex") to find appropriate colors that would match with the internal spaces of the gym.
 
 #### Fonts
 
 Since I used a [Canva](https://www.canva.com/ "Canva") font called "Colo Pro" in my hero image and the header logo image, I visited [Google Fonts](https://fonts.google.com/ "Google Fonts") and found a font called "Anton" that subtly fit the rest of the site. In the text of the cards, I used the font "Roboto" which the own [Google Fonts] (https://fonts.google.com/ "Google Fonts") suggested as a good combination to use with the "Anton" font. 
 
+<a></a>
 #### Icons
 
+I have used [Font Awesome](https://fontawesome.com/ "Font Awesome") to implement the icons to social media area. I have styled the icons according the website colors.
+
+#### Colors
+
+I based my color scheme on the internal spaces of the gym as matts, walls and equipments.
+You can view my color scheme [here](https://colorhunt.co/palette/272408).
 
 
+![Color scheme](https://i.imgur.com/9o10oZt.png)
 
 
+#### Structure
 
-Colors
-Structure
+I have chosen to use [Bootstrap](https://getbootstrap.com/) to create an overall structure for my website. 
+Bootstrap provides various elements of CSS which is very helpful to keep a good structure on your page. I also used my own codes on the website structure.
+
+[Back to Top](#table-of-contents)
+
+___
+
+
 Wireframes
 Features
 Existing Features
@@ -117,21 +132,6 @@ Deployment
 Credits
 ---
 
-
-## User Requirements and Expectations
-
-
-
-
----
-
-## Design Choices
-
-### Fonts
-
-### Icons
-
-### Colors
 
 ---
 
