@@ -117,10 +117,23 @@ Bootstrap provides various elements of CSS which is very helpful to keep a good 
 
 [Back to Top](#table-of-contents)
 
-___
+---
+
+## Wireframes
+
+I have decided to use Balsamic to create wireframes for my website. First I created a basic wireframe for desktop and later on for tablet and mobile. For my website I have decided to go for a 3 pages website which suits more with the current trends. The website will be easy to navigate by using the navigation bar.
+
+You can find my wireframes below:
+
+### [Desktop Wireframe](wireframes/desktop-wireframe.png)
+### [Tablet Wireframe](wireframes/tablet-wireframe.png)
+### [Mobile Wireframe](wireframes/mobile-wireframe.png)
 
 
-Wireframes
+[Back to Top](#table-of-contents)
+
+
+
 Features
 Existing Features
 Features to be implemented
