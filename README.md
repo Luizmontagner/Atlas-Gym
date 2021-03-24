@@ -132,12 +132,12 @@ You can find my wireframes below:
 
 
 ### [Home Page Tablet Wireframe](wireframes/home-tablet.png)
-### [Gallery Page Tablet Wireframe]()
-### [Join Now Page Tablet Wireframe]()
+### [Gallery Page Tablet Wireframe](wireframes/gallery-tablet.png)
+### [Join Now Page Tablet Wireframe](wireframes/join-tablet.png)
 
-### [Home Page Mobile Wireframe]()
-### [Gallery Page Mobile Wireframe]()
-### [Join Now Page Mobile Wireframe]()
+### [Home Page Mobile Wireframe](wireframes/home-mobile.png)
+### [Gallery Page Mobile Wireframe](wireframes/gallery-mobile.png)
+### [Join Now Page Mobile Wireframe](wireframes/join-mobile.png)
 
 [Back to Top](#table-of-contents)
 
