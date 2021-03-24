@@ -125,9 +125,9 @@ I have decided to use Balsamic to create wireframes for my website. First I crea
 
 You can find my wireframes below:
 
-### [Desktop Wireframe](https://i.imgur.com/9o10oZt.png)
-### [Tablet Wireframe]()
-### [Mobile Wireframe]()
+### [Desktop Wireframe](wireframes/home-desktop.png)
+### [Tablet Wireframe](wireframes/gallery-desktop.png)
+### [Mobile Wireframe](wireframes/contact-desktop.png)
 
 
 [Back to Top](#table-of-contents)
