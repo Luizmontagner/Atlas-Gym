@@ -141,13 +141,23 @@ You can find my wireframes below:
 
 [Back to Top](#table-of-contents)
 
+---
 
+## Features
 
+### **Existing Features**
 
-Features
+#### Navigation
 
+For the navbar I have used flex box to create a responsive navbar.
 
-Existing Features
+#### Hero Image
+
+I have decided to implement a hero image which spreads over 100% width of the screen. In order to make the user curious about what follows next, I decided to set the height at 70vh so show a little peek of what comes next. I also added a 1px solid black border to highlight the image.
+The image responds well when viewing on desktop, tablet and mobile.
+
+#### Home Page
+
 Features to be implemented
 Technologies used
 Languages
