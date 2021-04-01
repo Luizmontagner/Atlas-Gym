@@ -124,9 +124,16 @@ header {
     font-family: 'Roboto', sans-serif;
     list-style-image: linear-gradient(to left bottom, #fff, #737373);
     line-height: 2em;
-    text-shadow: 2px 4px 3px #eee;
+    
     margin-left: 5px;
     margin-right: 5px;
+}
+
+ .card-text-align:hover {
+    color: white;
+    font-size: 22px;
+    text-shadow: 1px 3px 2px #eee;
+    background-color: rgba(0, 0, 0, 0.548);
 }
 
 /* Social media*/
