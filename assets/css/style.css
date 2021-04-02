@@ -1,4 +1,4 @@
-body, ul, li{
+ body, ul, li{
     margin: 0px;
     padding: 0px;
     list-style: none;
@@ -242,7 +242,7 @@ footer {
 }
 
 
-/* Join Now Form*/
+/* Join Form*/
  
 .bg-image {
     background-image: url('https://imagizer.imageshack.com/img922/4228/l7HDvR.png'); 
@@ -269,25 +269,25 @@ footer {
 }
 
 .form-name{
-    margin-left: 10px;
+    margin-left: 0;
     margin-bottom: 10px;
     margin-right: 20px;
 }
 
 .form-email{
-    margin-left: 10px;
+    margin-left: 0;
     margin-bottom: 10px;
     margin-right: 20px;
 }
 
 .form-phone-number{
-    margin-left: 10px;
+    margin-left: 0;
     margin-bottom: 10px;
     margin-right: 20px;
 }
 
 .textarea{
-    margin-left: 10px;
+    margin-left: 0;
     margin-bottom: 10px;
     margin-right: 20px;
 }
@@ -338,6 +338,9 @@ footer {
     margin-left: -15px;
     letter-spacing: 3px;
 }
+
+
+
 
  }
 
@@ -390,7 +393,7 @@ footer {
 @media screen and (max-width: 400px) {
     .gallery{
         width: 100%;
-        border-radius: 0;
+        border-radius: 50%;
         
     }
 
@@ -398,8 +401,14 @@ footer {
         margin: 2px;
         width: 100%;
         margin-left: 0;
-        
-        
+    }
+
+    .menu{
+        margin-left: -30px;
+    }
+
+    .addres{
+        margin-left: -30px;
     }
 }
 
