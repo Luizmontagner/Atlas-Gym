@@ -158,32 +158,186 @@ The image responds well when viewing on desktop, tablet and mobile.
 
 #### Home Page
 
-Features to be implemented
-Technologies used
-Languages
-Tools and Libraries
-Testing
-Deployment
-Credits
----
 
+#### Gallery Page
 
----
-
-## Bugs
-
----
-
-## Wireframes
-
----
-
-## Features
-
----
+#### Join Page
 
 ## Features to be implemented
 
----
+- Proper Hamburger button
+- Configure form submission
+- 
+
+[Back to Top](#table-of-contents)
+
 
 ## Technologies used
+
+**Languages**
+
+* [HTML](https://en.wikipedia.org/wiki/HTML)
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### **Libraries & Frameworks**
+* [Font Awesome](https://fontawesome.com/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Google Fonts](https://fonts.google.com/)
+
+
+### **Tools**
+* [Git](https://git-scm.com/)
+* [GitPod](https://www.gitpod.io/)
+* [Balsamic](https://balsamiq.com/wireframes/)
+* [W3C HTML Validation Service](https://validator.w3.org/)
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+
+[Back to Top](#table-of-contents)
+
+## **Testing**
+
+### Navigation bar
+
+* **Plan**    
+
+I want a navigation bar which will have only the logo and three menus to make it clear and easy to the user. Whenever clicked on one of the navigation links, it should take you where you want to go.
+ As I don't have the skills to make a hamburger menu, I'm going to set up the menu under the logo, to make it nicer when the user access it from a mobile phone.
+
+* **Implementation**   
+I implemented the navigation bar using flex box.  
+
+* **Test**    
+To test the navigation bar, I have click all the links to make sure it works properly. 
+I have also opened the website in various browers (safari, google chrome, mozilla firefox) to make sure it works on all browsers and devices. 
+
+* **Result**    
+The navigation bar shows nicely like expected on all browsers and devices. 
+It did notice that the contact link was too close to the right side of the screen which I solved by increasing the margin. 
+All the links work properly and the scrollspy gives a clear view on where you are located on the page. 
+
+* **Verdict**    
+The test has passed all the criteria and works like planned.
+
+
+### Contact Form 
+
+* **Plan**
+
+I want to include a contact form which the user can fill in when they want to reach out to the owners directly.
+They should insert their name, email address & phone number so the owners can easily get back to them. 
+They should also be able include a message with the questions they are having. 
+Whenever they submit the form, I want a modal to open up in order to give feedback to the user that the form has been submitted correctly.
+
+* **Implementation** 
+
+In order to implement this, I have created a form in my index.html with 3 input fields, 1 textarea field and a submit button. 
+As it is a small & simple form, I have decided to not work with labels but placeholders instead. 
+I made sure that the form was styled according to the rest of the website. 
+
+* **Test**  
+
+When I tested the form, I noticed that the modal opened up eventhough the form was not filled in. 
+This gave the wrong feedback to the user. As I didn't have the required skills to implement form validation, I discussed this with my mentor. 
+My mentor wrote a small part of JavaScript which I was able to implement in order for the form not being able to be submitted without the required fields being filled in. 
+The data that is being inserted is currently not send anywhere as I don't have the knowledge yet but this is on the list with future features to be implemented. 
+
+* **Result**  
+
+After implementing the JavaScript, the form worked as planned and provided the correct feedback to the user.
+
+* **Verdict**  
+
+The form met all the criteria and works as planned. 
+[Back to Top](#table-of-contents)
+
+
+
+#### Form validation
+
+
+#### Hero Image
+
+* **Bug**    
+
+The hero image looked nice on normal browsers but the quality on safari on mobile was very bad. 
+* **Fix**  
+
+Tried various fixes but none of them seemed to be working. 
+After talking to my mentor, we changed the background-attachment to scroll on mobile and this resolved the bug. 
+* **Verdict**  
+
+Image now shows nicely on all devices and browsers.
+#### Hamburger dropdown menu
+
+* **Bug**   
+
+On mobile devices when you click the hamburger icon, the menu appears nicely. 
+Whenever you click on one of the links the dropdown menu doesn't dissapear but stays open. 
+This is not a good user experience.
+
+* **Verdict** 
+
+I did various research to have this resolved but at this moment I don't have the required skills yet. 
+This would be fixed in futher releases. 
+
+#### Icons
+
+* **Bug**
+
+The social media icons didn't show nicely on mobile. One appeared below the other 2 instead of all 3 next to each other.
+* **Fix** 
+
+Reduced the font-size and padding which resolved the issue immediately.
+* **Verdict** 
+
+Icons now show nicely next to each other on all devices and browsers.
+
+#### Navigation menu on smaller screensizes 
+
+* **Bug**    
+
+When the screen gets smaller, the fontsize of the navigation bar is too small and the collapse button goes off the screen. 
+
+* **Fix**  
+
+Removed the display: block and updated the width to 100% instead of 100vw like the assessor suggested. 
+Updated the font-size as well in order to be more easy to read. 
+
+* **Verdict**    
+
+Bug was resolved and navigation bar now works as planned and is more userfriendly. 
+[Back to Top](#table-of-contents)
+<a></a>
+
+## **Deployment**
+
+This project was deployed via GitHub by executing the following steps.
+After writing the code, committing and pushing it to GitHub:
+1. Navigate to the repository on github and click **Settings**.
+1. From there, go to the **Source section** within the Github Pages section.
+1. Select **master branch** on the dropdown menu, and click save.
+1. Now the website is live on **https://luizmontagner.github.io/Atlas-Gym/**
+1. Any time commits and pushes are sent to Github, the Github Pages site should update shortly after.
+To run the project locally:
+1. Click the **green Clone or Download button** on the Github Repository
+1. Using the **Clone with HTTPS option**, copy the link displayed.
+1. Open your IDE, and ensure the Git Terminal is open.
+1. Change the working directory to the location where the cloned directory is to go.
+1. Use the **"git clone" command** and paste the url copied in the second step.
+
+[Back to Top](#table-of-contents)
+
+
+## **Credits**
+
+### Content - Media - Inspiration
+
+I have used the following websites to gather ideas and information for the overall content of my website: 
+
+
+From the first 2 website I have also used most of the images for my website. 
+
+I have used [Canva](https://canva.com/) and [](https://.com/) for my hero image and the picture of the owners.
+
+### Acknowledgements
+
