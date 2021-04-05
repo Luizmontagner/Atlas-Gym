@@ -29,7 +29,6 @@
 }
 
 .navbar-dark .navbar-toggler {
-    border-color: orange;
     padding: 1.5rem;
     float: right;
     margin: 0.5rem;
@@ -136,7 +135,7 @@
 .social-media{
     background-color: black;
     color: #fff;
-    margin-top: 0;
+    margin: 0;
 }
 
 .sub-heading {
@@ -146,7 +145,6 @@
     color: #fff;
     text-align: center;
     letter-spacing: 3px;
-    margin-left: 1%;
     margin-bottom: 20px;
     margin-top: 10px;
 }
