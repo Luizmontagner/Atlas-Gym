@@ -6,62 +6,57 @@
     font-family: arial;
 }
 
-.acc-btn:hover {
-    font-size: 35px;
+/* test menu */
+
+.navbar {
+    text-align: left;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+    padding: 0;
+    margin: 0;
+    background-color: #262626;
 }
 
-.bars {
-    margin-left: 900px;
-}
-
-li a {
-    text-decoration: none;
-    color: #fff;
-}
-
-/* Header */
-
-header {
-    background-color: black;
-    border: 1px solid black;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
-    align-items: center;
-}
-
-.menu {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    display: flex;
-    font-family: 'Anton', sans-serif;
-    font-size: 22px;
-    text-transform: uppercase;
-    color: #fff;
-}
-
-.menu li {
-    margin-left: 15px;
-}
-
-.menu li a {
-    display: block;
-    padding: 5px;
+#navbar-brand {
+    float: left;
+    margin-left: 0;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
     
-
 }
 
-.li-hover:hover {
+.navbar-dark .navbar-toggler {
+    border-color: orange;
+    padding: 1.5rem;
+    float: right;
+    margin: 0.5rem;
+}
+
+
+#navigation li a {
+    height: 100%;
+    padding: 0;
+    margin-right: 40px;
+    float: left;
+    line-height: 60px;
+    font-size: 22px;  
+    margin-left: 20px;
+    width: 100%;
     color: #fff;
+}
+
+#navigation li a:hover{
     text-decoration: underline;
 }
 
-.join-menu:hover {
-    text-decoration: underline;
-    color: white;
-    font-weight: 700;
-}
+
+
+/* test menu */
+
+
 
 /* Hero image */
 
@@ -327,36 +322,6 @@ footer {
 }
 
 
- @media screen and (max-width: 500px) {
-  
-.header-logo{
-    margin-left: 130px;
-    margin-bottom: 5px;
-}
-
-.menu{
-    margin-left: -15px;
-    letter-spacing: 3px;
-}
-
-
-
-
- }
-
- @media screen and (max-width: 320px) {
-  
-.header-logo{
-    margin-left: 100px;
-    margin-bottom: 5px;
-}
-
-.menu{
-    margin-left: -30apx;
-    letter-spacing: 1px;
-}
-
-}
 
 
 @media screen and (max-width: 1000px) {
@@ -401,10 +366,6 @@ footer {
         margin: 2px;
         width: 100%;
         margin-left: 0;
-    }
-
-    .menu{
-        margin-left: -30px;
     }
 
     .addres{

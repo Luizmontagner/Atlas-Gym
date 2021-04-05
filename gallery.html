@@ -3,30 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atlas Gym</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-     <!-- Bootstrap Css -->
+
+     
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/sandstone/bootstrap.min.css"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet"/>
-     <!-- Font Awesome icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet"/>
+ 
+    <!-- Font Awesome icons -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
+    
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
     
     <!-- Favicon -->
-
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
 
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Atlas Gym</title>
+
 </head>
+<body>
 
-<body class="bg-dark bg-gradient">
+<header> 
 
-<header>
+    <nav class="navbar navbar-expand-lg" id="navbar-example">
+        <a href="index.html" id="navbar-brand" aria-label="logo"><img src="assets/images/logo.png"   alt="Atlas Gym"></a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fas fa-bars fa-2x btn-color"></i></span>
+            </button>
 
-    <!--- Navbar flex-box and logo -->
+    <div class="collapse bg-dark navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto d-flex" id="navigation">
+            <li class="nav-item mr-2 flex-column"> 
+                <a class="nav-link" href="index.html" aria-label="Home">Home</a>
+            </li>
+            <li class="nav-item mr-2 flex-column"> 
+                <a class="nav-link" href="gallery.html" aria-label="Gallery">Gallery</a>
+            </li>
+            <li class="nav-item mr-2 flex-column"> 
+                <a class="nav-link" href="join.html" aria-label="Join">Join</a>
+            </li>
+        </ul>
+    </div>
+    </nav>
 
+
+
+
+    
+<!-- <nav>    
+<div class="accordion bg-dark" id="accordionExample">
+    <div class="accordion-item bars">
+        <a href="index.html" class="header-logo" aria-label="logo"><img src="assets/images/logo.png"  alt="Atlas Gym"></a>
+        <button class="accordion-button bars" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <i class="fa fa-bars fa-2x acc-btn"></i>
+        </button>    
+    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+                
+    <nav>
+        <ul class="menu">
+            <li><a class="li-hover" aria-current="page" href="index.html">Home</a></li>
+            <li><a class="li-hover" href="gallery.html">Gallery</a></li>
+            <li><a class="join-menu" href="join.html">Join</a></li>
+        </ul>
+    </nav> 
+      </div>
+    </div>
+    </div>
+</div>
+</nav> -->
+ 
+
+ 
+
+
+<!-- 
     <a href="index.html" class="header-logo" aria-label="logo"><img src="assets/images/logo.png"  alt="Atlas Gym"></a>
     <nav>
         <ul class="menu">
@@ -34,9 +90,9 @@
             <li><a class="li-hover" href="gallery.html">Gallery</a></li>
             <li><a class="join-menu" href="join.html">Join</a></li>
         </ul>
-    </nav>   
+    </nav>    -->
 
-</header> 
+</header>
 
 <!--- Pictures-->
 
@@ -155,5 +211,24 @@
 </div>
 
 </footer>
+
+<!-- Links bootstrap Javascript-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+<!-- JavaScript for form validation written by my mentor Simen-->
+
+<script>
+$('#contact-form').submit(function (e) {
+    e.preventDefault();
+    $('#submitModal').modal('show');
+  });
+</script>
+
 </body>
 </html>
