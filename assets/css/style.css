@@ -1,45 +1,29 @@
- body, ul, li{
+body, ul, li{
     margin: 0px;
     padding: 0px;
     list-style: none;
     font-size: 1.2rem;
     font-family: arial;
-}
+} 
 
 /* test menu */
 
 .navbar {
-    text-align: left;
-    position: fixed;
-    overflow: hidden;
-    top: 0;
     width: 100%;
-    z-index: 999999;
     padding: 0;
     margin: 0;
     background-color: #262626;
 }
 
 #navbar-brand {
-    float: left;
-    margin-left: 0;
-    padding-left: 1rem;
-    padding-top: 0.5rem;
-    
+    padding-left: 10px;
 }
 
-.navbar-dark .navbar-toggler {
-    padding: 1.5rem;
-    float: right;
-    margin: 0.5rem;
-}
 
 
 #navigation li a {
-    height: 100%;
     padding: 0;
-    margin-right: 40px;
-    float: left;
+    margin-right: 30px;
     line-height: 60px;
     font-size: 22px;  
     margin-left: 20px;
@@ -50,11 +34,6 @@
 #navigation li a:hover{
     text-decoration: underline;
 }
-
-
-
-/* test menu */
-
 
 
 /* Hero image */
@@ -149,8 +128,11 @@
     margin-top: 10px;
 }
 
+
+
 .fa {
     color: #fff;
+    margin-top: 20px;
     margin-bottom: 50px;
     margin-left: 20px;
 }
