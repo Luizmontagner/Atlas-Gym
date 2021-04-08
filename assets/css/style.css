@@ -6,13 +6,17 @@ body, ul, li{
     font-family: arial;
 } 
 
-/* test menu */
+/* Menu */
 
 .navbar {
     width: 100%;
     padding: 0;
     margin: 0;
     background-color: #262626;
+}
+
+#border{
+    border: 1px solid black;
 }
 
 #navbar-brand {
@@ -78,8 +82,6 @@ body, ul, li{
     
 }
 
-
-
 .card-body-align {
     background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(48, 0, 0), rgb(96, 0, 0), rgb(144, 0, 0), rgb(192, 0, 0), rgb(240, 0, 0), rgb(200, 0, 0), rgb(160, 0, 0), rgb(120, 0, 0), rgb(80, 0, 0), rgb(40, 0, 0), rgb(0, 0, 0));    border: 1rem solid;
     margin-bottom: 10px;
@@ -97,17 +99,10 @@ body, ul, li{
     font-family: 'Roboto', sans-serif;
     list-style-image: linear-gradient(to left bottom, #fff, #737373);
     line-height: 2em;
-    
     margin-left: 5px;
     margin-right: 5px;
 }
 
- .card-text-align:hover {
-    color: white;
-    font-size: 22px;
-    text-shadow: 1px 3px 2px #eee;
-    background-color: rgba(0, 0, 0, 0.548);
-}
 
 /* Social media*/
 
