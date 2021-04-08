@@ -3,41 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-     
     <!-- Bootstrap Css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/sandstone/bootstrap.min.css"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet"/>
- 
     <!-- Font Awesome icons -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
-    
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
-    
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
-
+    <!-- Style.css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Atlas Gym</title>
-
 </head>
 <body>
-
 <header> 
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-color-dark" id="navbar-example">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-color-dark">
+    <!-- Container wrapper -->  
+        <div class="container-fluid">
+    <!-- Navbar brand -->
         <a href="index.html" id="navbar-brand" aria-label="logo"><img src="assets/images/logo.png"   alt="Atlas Gym"></a>
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span><i class="fas fa-bars fa-1x btn-color"></i></span>
+    <!-- Toggle button -->
+            <button 
+            class="navbar-toggler" 
+            type="button"
+            data-toggle="collapse" 
+            data-target="#navbarNavDropdown" 
+            aria-controls="navbarNavDropdown" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+            <i class="fas fa-bars fa-1x btn-color"></i>
             </button>
-
-    <div class="collapse bg-dark navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto d-flex" id="navigation">
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse bg-dark" id="navbarNavDropdown">
+    <!-- List links -->    
+        <ul class="navbar-nav ml-auto mb-2 mb-lg-0" id="navigation">
             <li class="nav-item mr-2 flex-column"> 
                 <a class="nav-link" href="index.html" aria-label="Home">Home</a>
             </li>
@@ -50,48 +55,7 @@
         </ul>
     </div>
     </nav>
-
-
-
-
-    
-<!-- <nav>    
-<div class="accordion bg-dark" id="accordionExample">
-    <div class="accordion-item bars">
-        <a href="index.html" class="header-logo" aria-label="logo"><img src="assets/images/logo.png"  alt="Atlas Gym"></a>
-        <button class="accordion-button bars" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            <i class="fa fa-bars fa-2x acc-btn"></i>
-        </button>    
-    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-                
-    <nav>
-        <ul class="menu">
-            <li><a class="li-hover" aria-current="page" href="index.html">Home</a></li>
-            <li><a class="li-hover" href="gallery.html">Gallery</a></li>
-            <li><a class="join-menu" href="join.html">Join</a></li>
-        </ul>
-    </nav> 
-      </div>
     </div>
-    </div>
-</div>
-</nav> -->
- 
-
- 
-
-
-<!-- 
-    <a href="index.html" class="header-logo" aria-label="logo"><img src="assets/images/logo.png"  alt="Atlas Gym"></a>
-    <nav>
-        <ul class="menu">
-            <li><a class="li-hover" aria-current="page" href="index.html">Home</a></li>
-            <li><a class="li-hover" href="gallery.html">Gallery</a></li>
-            <li><a class="join-menu" href="join.html">Join</a></li>
-        </ul>
-    </nav>    -->
-
 </header>
 
 
@@ -106,9 +70,13 @@
         <div class="col-md-12 bg-gradient">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-4">
+                    <!--- Card Image-->
                     <img src="assets/images/membersonly.png" class="card-img" alt="Members Only">
+                    <!--- Card Body-->
                         <div class="card-body-align">
+                            <!--- Card Title-->
                             <h5 class="card-title-align bg-gradient">Gym Membership €20,00</h5>
+                            <!--- Card Text-->
                                 <ul class="card-text-align bg-gradient">
                                     <li>Monthly Membership (No Contract)</li>
                                     <li>24HR access</li>
@@ -127,9 +95,13 @@
                 </div>
 
                 <div class="col-sm-12 col-md-12 col-lg-4">
+                    <!--- Card Image-->
                     <img src="assets/images/classes.png"  class="card-img" alt="Classes">
+                    <!--- Card Body-->
                         <div class="card-body-align">
+                            <!--- Card Title-->
                             <h5 class="card-title-align bg-gradient">Classes</h5>
+                            <!--- Card Text-->
                                 <ul class="card-text-align bg-gradient">
                                     <li>Crossfit</li>
                                     <li>Hard Circuit</li>
@@ -148,9 +120,13 @@
                 </div>
 
                 <div class="col-sm-12 col-md-12 col-lg-4">
+                    <!--- Card Image-->
                     <img src="assets/images/coach.png"  class="card-img" alt="Coach">
+                    <!--- Card Body-->
                         <div class="card-body-align">
+                            <!--- Card Title-->
                             <h5 class="card-title-align bg-gradient">Personal Coaching</h5>
+                            <!--- Card Text-->
                                 <ul class="card-text-align bg-gradient">
                                     <li>Identifying goals </li>
                                     <li>Creating tailored exercise plans</li>
@@ -246,22 +222,15 @@
 
 </footer>
 
-<!-- Links bootstrap Javascript-->
-
+<!-- Bootstrap Java -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
-<!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-
-<!-- JavaScript for form validation written by my mentor Simen-->
-
-<script>
-$('#contact-form').submit(function (e) {
-    e.preventDefault();
-    $('#submitModal').modal('show');
-  });
+ <!-- MDB Java -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js">
 </script>
 
 </body>
