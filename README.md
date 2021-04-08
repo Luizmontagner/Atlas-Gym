@@ -201,10 +201,10 @@ The image responds well when viewing on desktop, tablet and mobile.
 * **Plan**    
 
 I want a navigation bar which will have only the logo and three menus to make it clear and easy to the user. Whenever clicked on one of the navigation links, it should take you where you want to go.
- As I don't have the skills to make a hamburger menu, I'm going to set up the menu under the logo, to make it nicer when the user access it from a mobile phone.
+
 
 * **Implementation**   
-I implemented the navigation bar using flex box.  
+I implemented the navigation bar using ....  
 
 * **Test**    
 To test the navigation bar, I have click all the links to make sure it works properly. 
