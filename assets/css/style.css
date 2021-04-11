@@ -224,6 +224,29 @@ hr {
 }
 
 
+/* Modal*/
+
+.modal-header{
+       background-image: linear-gradient(300deg, #c90000 10%, #000000 90%);
+}
+
+.modal-body{
+        background-image: linear-gradient(300deg, #c90000 10%, #000000 90%);
+        color: #fff;
+}
+
+.modal-footer{
+        background-image: linear-gradient(300deg, #c90000 10%, #000000 90%);
+}
+
+.modal-title{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+.x-btn{
+    color: #fff;
+}
 
 
 /* Social media*/
