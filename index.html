@@ -39,7 +39,7 @@
     <!-- Links -->    
         <ul class="navbar-nav ml-auto mb-2 mb-lg-0" id="navigation">
             <li class="nav-item mr-2 flex-column"> 
-                <a class="nav-link" href="#" aria-label="Home">Home</a>
+                <a class="nav-link" href="#home" aria-label="Home">Home</a>
             </li>
             <li class="nav-item mr-2 flex-column"> 
                 <a class="nav-link" href="#classes" aria-label="Classes">Classes</a>
@@ -51,7 +51,7 @@
                 <a class="nav-link" href="#location" aria-label="Join">Location</a>
             </li>
             <li class="nav-item mr-2 flex-column"> 
-                <a class="nav-link" href="#join" aria-label="Contact">Contact</a>
+                <a class="nav-link" href="#contact" aria-label="Contact">Contact</a>
             </li>
         </ul>
     </div>
@@ -60,7 +60,7 @@
 </header>
 
 <!--- Hero image -->
-<div class="mb-3">
+<div id="home" class="mb-3">
   <img src="assets/images/atlaslogo.png" class="hero-image" alt="Atlas Gym">
 </div>
 
@@ -171,22 +171,7 @@
 <!---HR-->
 <div id="hr"></div>
                     
-                
-<!---Address Information-->
 
-                <!-- <div class="row">
-                    <div class="col-md-4 text-center address">
-                        <h5>Address</h5>
-                        <p>1-3 Captain Street Lower,
-                            <br>
-                             Coleraine BT51 3DT,
-                             <br>
-                              United Kingdom
-                        </p>
-                    </div> -->
-                    
-
-<!--- Contact Information-->
 <!-- 
                     <div class="col-md-4 text-center">
                         <h5>Contact</h5>
@@ -247,35 +232,62 @@
 <!---HR-->
 <div class="hr"></div>
 
+<!---Form and Contact Information-->
+<section id="contact" class="form-bg">
+    <h1 class="form-heading">Contact Us</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-lg-4">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputNome" class="form-label form-title">Full Name</label>
+                            <input type="text" class="form-control" id="exampleInputNome" placeholder="Full Name" aria-describedby="nameHelp" required>
+                            <div id="nameHelp"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label form-title">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address"
+                                aria-describedby="emailHelp" required>
+                            <div id="emailHelp" class="form-text"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label form-title">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Write your message" rows="3"></textarea>
+                        </div>
+                        <button id="btn-contact" class="form-btn">Send</button>
+                    </form>
+                </div>
+                <div class="d-none text-center d-md-block col-md-8 contact-img-cross">
+                        <div>
+                            <span class="contact"><i class="fa fa-mobile"></i> +353 083 123 7654</span>
+                            <span class="contact"><i class="fa fa-phone"></i> +353 01 879 2323</span>
+                            <span class="contact"><a class="email" href="mailto:atlas@atlasgym.ie" aria-label="Contact Us"><i class="fa fa-envelope"></i> atlas@atlasgym.ie</a></span>
+                        </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+
+
 <!--- Footer -->
+
 <footer>
 <div class="container-fluid bg-gradient">
     <div class="row text-center">
-            <a class="col" href="index.html" aria-label="footer"><img src="assets/images/logo.png" alt="Atlas Gym logo"></a>      
+            <a class="col" href="#home" aria-label="footer"><img src="assets/images/logo.png" alt="Atlas Gym logo"></a>      
         </div>
-</div>
-
-<!--- Join Now Button-->                    
-                    <div class="col-md-4 text-center">
-                            <a class="join-footer" href="join.html">Join Now</a>
-                    </div>
-
+</div>   
 
 <!--- Social media-->
 
-<div class="container-fluid social-media bg-gradient">
-    <div class="row">
-        <div class="col bg-gradient">
-                <div class="row">
-                    <div class="col">
-                        <h5 class="sub-heading">Find Out More</h5>
-                    <ul class="text-center list-inline"> 
+                    <!-- <ul class="text-center list-inline"> 
                         <li class="list-inline-item"><a href="https://wa.me/message" target="_blank" aria-label="Send us a message on Whatsapp"><i class="fa fa-whatsapp fa-3x"></i></a></li>
                         <li class="list-inline-item"><a href="https://www.instagram.com" target="_blank" aria-label="Follow us on Instagram"><i class="fa fa-instagram fa-3x"></i></a></li>
                         <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank" aria-label="Follow us on Facebook"><i class="fa fa-facebook fa-3x"></i></a></li>
                     </ul>
-                </div>
-
+                 -->
 </footer>
 
 <!-- Bootstrap Java -->
