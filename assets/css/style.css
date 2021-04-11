@@ -14,7 +14,7 @@ body, ul, li{
     font-family: 'Roboto', sans-serif;
 } 
 
-/* Menu */
+/* Navbar */
 
 .navbar {
     width: 100%;
@@ -25,9 +25,16 @@ body, ul, li{
     display: flex;
 }
 
-#border{
-    border: 1px solid black;
+.navbar-brand{
+    margin-left: -60px;
 }
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
 
 #navbar-brand {
     padding-left: 10px;
@@ -54,27 +61,23 @@ body, ul, li{
 .hero-image{
     border: 1px solid black;
     background-color: #737373;
-    height: 70vh;
     width: 100%;
 }
 
-.card-border{
-    margin-left: 10px;
-    margin-right: 10px;
-    max-width: 70%;
-}
 
 #classes-img{
-    margin-left: 600px;
+    margin-bottom: 100px;
+    border-radius: 10%;
 }
 
 .classes-header{
     color: #fff;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 700;
     text-align: center;
     margin-top: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
     
 }
 
@@ -87,11 +90,12 @@ body, ul, li{
 .classes-title{
     color: #fff;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 .classes-text{
     color: #fff;
+    text-align: justify;
 
 }
 
