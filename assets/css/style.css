@@ -21,19 +21,17 @@ body, ul, li{
     padding: 0;
     margin: 0;
     background-color: #262626;
-    position: fixed;
-    display: flex;
 }
 
 .navbar-brand{
     margin-left: -60px;
 }
 
-header {
+/* header {
     position: sticky;
     top: 0;
     z-index: 9999;
-}
+} */
 
 
 #navbar-brand {

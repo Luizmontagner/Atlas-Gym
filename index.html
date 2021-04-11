@@ -254,7 +254,7 @@
                             <label for="exampleFormControlTextarea1" class="form-label form-title">Message</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Write your message" rows="3"></textarea>
                         </div>
-                        <button id="btn-contact" class="form-btn">Send</button>
+                        <button id="btn-contact" class="form-btn" data-toggle="modal" data-target="#exampleModal">Send</button>
                     </form>
                 </div>
                 <div class="d-none text-center d-md-block col-md-8 contact-img-cross">
@@ -300,6 +300,27 @@
   type="text/javascript"
   src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js">
 </script>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Thank you!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        A member of our team will contact you shortly.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
