@@ -108,17 +108,49 @@ header {
 
 
 /* HR */
-#hr {
+
+hr {
+    border: 2px solid double #ff0000;
+    width: 100%;
+    margin: 3rem 0;
+    height: 5px;
+    color: #ff0000;
     margin-left: 10px;
     margin-top: -40px;
-    border-top: 2px double red;
-    color: red;
-    height: 5px;
-
 }
 
-/* Location*/
+/* Location and Opening Times*/
 
+#location{
+    margin-top: 30px;
+}
+
+.address{
+    color: #fff;
+}
+
+.address-title{
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.address-text{
+    font-weight: 100;
+    text-align: center;
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#address-alignment{
+    margin-right: 15%;
+}
+
+/* Map */
 #map{
     height: 350px;
     width: 100%;
@@ -178,10 +210,6 @@ header {
     margin-bottom: 15px;
 }
 
-.addres{
-    margin-top: 10px;
-}
-
 .contact{
     display: block;
 }
@@ -226,144 +254,8 @@ footer {
 }
 
 
-/* Join Form*/
- 
-.bg-image {
-    background-image: url('https://imagizer.imageshack.com/img922/4228/l7HDvR.png'); 
-    height: 150%;
-    background-color: grey;
-}
-
-
-.form-heading{
-    color: #fff;
-    margin-left: 30px;
-    margin-top: 20px;
-    font-family: 'Anton', sans-serif;
-    font-size: 30px;
-    text-transform: uppercase;
-    margin-right: 20px;
-}
-
-.form-paragraph{
-    color: rgba(255,255,255, 0.8);
-    margin-left: 30px;
-    margin-bottom: 30px;
-    margin-right: 20px;
-}
-
-.form-name{
-    margin-left: 0;
-    margin-bottom: 10px;
-    margin-right: 20px;
-}
-
-.form-email{
-    margin-left: 0;
-    margin-bottom: 10px;
-    margin-right: 20px;
-}
-
-.form-phone-number{
-    margin-left: 0;
-    margin-bottom: 10px;
-    margin-right: 20px;
-}
-
-.textarea{
-    margin-left: 0;
-    margin-bottom: 10px;
-    margin-right: 20px;
-}
-
-#btn-submit{
-    color: #fff;
-    font-family: 'Anton', sans-serif;
-    text-transform: uppercase;
-    margin-left: 20px;
-    margin-bottom: 5px;
-    background-image: linear-gradient(300deg, #c90000 10%, #000000 90%);
-    border-radius: 30px;
-    margin-right: 20px;
-}
-
-#btn-submit:hover{
-    font-size: 18px;
-}
-
-
-
-/* Gallery*/
-
-#gallery-bg{
-    background-color: #000000;
-}
-
-
-
-.gallery {
-    width: 100%;
-    height: 500px;
-    margin-bottom: 10px;
-    padding: 0;
-    object-fit: cover;
-    border: 5px solid white;
-} 
-
-#gallery{
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
 
 
 
 
-/* @media screen and (max-width: 1000px) {
-    .gallery{
-        width: 300%;
-        border-radius: 0;
-    }
 
-    .tablet{
-        margin: 2px;
-        width: 100%;
-        height: 100%;
-        margin-left: 3%;
-        margin-right: 30%;
-    }
-}
-
-
-@media screen and (max-width: 767px) {
-    .gallery{
-        width: 100%;
-        border-radius: 0;
-    }
-
-    .tablet{
-        margin: 2px;
-        width: 100%;
-        height: 100%;
-        margin-left: 3%;
-        margin-right: 30%;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .gallery{
-        width: 100%;
-        border-radius: 50%;
-        
-    }
-
-    .tablet{
-        margin: 2px;
-        width: 100%;
-        margin-left: 0;
-    }
-
-    .addres{
-        margin-left: -30px;
-    }
-}
- */
