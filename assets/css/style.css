@@ -23,10 +23,6 @@ body, ul, li{
     background-color: #262626;
 }
 
-.navbar-brand{
-    margin-left: -60px;
-}
-
 /* header {
     position: sticky;
     top: 0;
@@ -159,7 +155,9 @@ hr {
 /*Form and Contact Information*/
 
 .form-bg{
+    background-size: 100%;
     background-image: url('/workspace/Atlas-Gym/assets/images/form-bg.png');
+    background-repeat: no-repeat;
 }
 
 .form-heading{
@@ -288,33 +286,6 @@ hr {
 
 .fa-facebook:hover {
     color: rgba(207, 36, 36, 0.986);
-}
-
-
-
-
-
-/* Join Button*/
-
-.join-footer {
-    color: #fff;
-    background-image: linear-gradient(300deg, #c90000 10%, #000000 90%);
-    font-size: 35px;
-    text-align: center;
-    width: 100%;
-    height: 50%;
-    border-radius: 30px;
-    border: 2px solid #000000;
-    text-transform: uppercase;
-    font-family: 'Anton', sans-serif;    
-    letter-spacing: 3px;
-    padding: 3px;
-    margin-bottom: 10px;
-}
-
-.join-footer:hover {
-    font-size: 40px;
-    color: #fff;
 }
 
 
