@@ -23,13 +23,6 @@ body, ul, li{
     background-color: #262626;
 }
 
-/* header {
-    position: sticky;
-    top: 0;
-    z-index: 9999;
-} */
-
-
 #navbar-brand {
     padding-left: 10px;
 }
@@ -155,9 +148,8 @@ hr {
 /*Form and Contact Information*/
 
 .form-bg{
-    background-size: 100%;
     background-image: url('/workspace/Atlas-Gym/assets/images/form-bg.png');
-    background-repeat: no-repeat;
+    
 }
 
 .form-heading{
@@ -247,53 +239,39 @@ hr {
 }
 
 
+
+/* Footer*/
+
+footer{
+    background-color: #000000;
+}
+
 /* Social media*/
 
-.social-media{
-    background-color: #000000;
+.list-inline-item{
     color: #fff;
-    margin: 0;
-    
+    margin: 5px;
 }
 
-.sub-heading {
-    font-family: 'Anton', sans-serif;
-    font-size: 30px;
-    text-transform: uppercase;
+.fab {
     color: #fff;
-    text-align: center;
-    letter-spacing: 3px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-}
-
-
-
-.fa {
-    color: #fff;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    margin-left: 20px;
-}
+} 
 
 .fa-whatsapp:hover {
-    color: rgba(207, 36, 36, 0.986);
+    color: #920606;
 }
 
 .fa-instagram:hover {
-    color: rgba(207, 36, 36, 0.986);
+    color: #920606;
 }
 
 .fa-facebook:hover {
-    color: rgba(207, 36, 36, 0.986);
-}
+    color: #920606;
+} 
 
 
-/* Footer OK*/ 
 
-footer {
-    background-color: #000000;
-}
+
 
 
 
