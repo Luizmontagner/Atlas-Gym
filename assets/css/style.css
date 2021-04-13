@@ -23,6 +23,10 @@ body, ul, li{
     background-color: #262626;
 }
 
+.btn-color{
+    color: #fff;
+}
+
 #navbar-brand {
     padding-left: 10px;
 }
@@ -92,18 +96,6 @@ body, ul, li{
     margin-top: 15px;
     margin-bottom: 50px;
     text-transform: uppercase;
-}
-
-
-/* HR */
-
-hr {
-    width: 100%;
-    margin: 3rem 0;
-    height: 5px;
-    color: #920606;
-    margin-left: 10px;
-    margin-top: -40px;
 }
 
 /* Location and Opening Times*/
