@@ -23,6 +23,7 @@ body, ul, li{
     background-color: #262626;
 }
 
+/* Hamburger Button */
 .btn-color{
     color: #fff;
 }
@@ -51,11 +52,11 @@ body, ul, li{
 /* Hero image */
 
 .hero-image{
-    border: 1px solid #000000;
     background-color: #737373;
     width: 100%;
 }
 
+/* Gym Classes */
 
 .classes-img{
     margin-bottom: 100px;
@@ -141,11 +142,10 @@ body, ul, li{
 
 .form-bg{
     background-image: url("https://i.imgur.com/Zu80XA7.png");
-    
+    background-color: #000000;
 }
 
 .form-heading{
- 
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
@@ -170,7 +170,6 @@ body, ul, li{
 }
 
 .form-btn:hover{
-    
     text-decoration: none;
     color: #495053;
     font-size: 22px;
