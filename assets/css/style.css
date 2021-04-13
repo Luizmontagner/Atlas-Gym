@@ -52,7 +52,7 @@ body, ul, li{
 }
 
 
-#classes-img{
+.classes-img{
     margin-bottom: 100px;
     border-radius: 10%;
 }
@@ -97,7 +97,6 @@ body, ul, li{
 /* HR */
 
 hr {
-    border: 2px solid double #920606;
     width: 100%;
     margin: 3rem 0;
     height: 5px;
