@@ -15,9 +15,10 @@ body, ul, li{
 } 
 
 .hr {
-    border: 1px solid #920606;
+    border: 2px solid #920606;
     width: 100%;
-    margin: 3rem 0; 
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 /* Navbar */
