@@ -1,5 +1,5 @@
 # Atlas-Gym
-![Wireframe](https://i.imgur.com/n7F0UTK.png)
+![Wireframe](https://i.imgur.com/NPIyQE6.png)
 
 ## Goal for this project
 
