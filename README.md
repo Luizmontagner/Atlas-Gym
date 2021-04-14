@@ -1,12 +1,14 @@
 # Atlas-Gym
-![Wireframe](https://i.imgur.com/NPIyQE6.png)
+![Mokeup image](https://i.imgur.com/NPIyQE6.png)
 
 ## Goal for this project
 
 Welcome to Atlas Gym! This is a modern open 24/7 gym located at the heart of the city, 
-providing everything you need to keep good habits while fitting in your busy life
+providing everything you need to keep good habits while fitting in your busy life.
 On this site you can find all the relevant information you need about membership plans and classes.
- The website provides pictures of the facilities and modalities so that the visitors find all the necessary information easily.
+The website provides pictures of the facilities and modalities so that the visitors find all the necessary information easily.
+
+Thank you for visiting my project! If you have any feedback or questions, head over to my GitHub contact details and feel free to reach out to me.
 
 ---
 <a></a>
@@ -45,6 +47,7 @@ On this site you can find all the relevant information you need about membership
 - Contat details easy to find.
 - A website should be self intuitive.
 - Website should exib all services provided.
+- Form to contact the Gym directly from site.
 
 [Back to Top](#table-of-contents)
 
@@ -53,7 +56,7 @@ On this site you can find all the relevant information you need about membership
 - As a user, I want to be able to easily find the contact details from the business.
 - As a user, I want to find information about the policies and prices.
 - As a user, I want to see various images about the facilities.
-- As a user, I want to find easily where the gym is located and if I can easily park.
+- As a user, I want to find easily where the gym is located.
 - As a user, it is important to me that the website is easy and simple to use.
 - As a user, I want the website to work well on mobile and tablets.
 - As a user, I want to find the contact details quickly, otherwise I will be tempted to book somewhere else.
@@ -81,7 +84,7 @@ On this site you can find all the relevant information you need about membership
 
 #### **Expectations**
 
-- When clicking on links (like social media), I expect the page to open in a seperate browser.
+- When clicking on links, I expect the page to open in a seperate browser.
 - I expect that the navigation links work properly so that is takes me wherever I want to go.
 - Clear info about location.
 - Website is in line with the customer's journey.
@@ -90,16 +93,21 @@ On this site you can find all the relevant information you need about membership
 
 ### **Design Choices**
 
-As soon as I decided the gym's name I built the logo using [Canva](https://www.canva.com/ "Canva") and decided that I would be using dark colors. I have used [Color Hex](https://www.color-hex.com/ "Color Hex") to find appropriate colors that would match with the internal spaces of the gym.
+As soon as I decided the gym's name I built the logo using [Canva](https://www.canva.com/ "Canva") and decided that I would be using dark colors.
+ I have used [Color Hex](https://www.color-hex.com/ "Color Hex") to find appropriate colors that would match with the internal spaces of the gym.
 
 #### Fonts
 
-Since I used a [Canva](https://www.canva.com/ "Canva") font called "Colo Pro" in my hero image and the header logo image, I visited [Google Fonts](https://fonts.google.com/ "Google Fonts") and found a font called "Anton" that subtly fit the rest of the site. In the text of the cards, I used the font "Roboto" which the own [Google Fonts] (https://fonts.google.com/ "Google Fonts") suggested as a good combination to use with the "Anton" font. 
+Since I used a [Canva](https://www.canva.com/ "Canva") font called "Colo Pro" in my hero image and the header logo image, 
+I visited [Google Fonts](https://fonts.google.com/ "Google Fonts") and found a font called "Anton" that subtly fit the rest of the site. 
+In the text of the cards, I used the font "Roboto" which the own [Google Fonts](https://fonts.google.com/ "Google Fonts") suggested as a good combination to use with the "Anton" font. 
 
 <a></a>
 #### Icons
 
-I have used [Font Awesome](https://fontawesome.com/ "Font Awesome") to implement the icons to social media area. I have styled the icons according the website colors.
+I have used [Font Awesome](https://fontawesome.com/ "Font Awesome") to implement the icons to social media area. I have styled the icons according the website colors. The navigation menu will transform into a hamburger icon to make it more simple to use on mobile.
+
+
 
 #### Colors
 
@@ -112,8 +120,7 @@ You can view my color scheme [here](https://colorhunt.co/palette/272408).
 
 #### Structure
 
-I have chosen to use [Bootstrap](https://getbootstrap.com/) to create an overall structure for my website. 
-Bootstrap provides various elements of CSS which is very helpful to keep a good structure on your page. I also used my own codes on the website structure.
+I have chosen to use [Bootstrap](https://getbootstrap.com/) to create an overall structure for my website. Bootstrap provides various elements of CSS and Javascript which is very helpful to keep a good structure on your page. As Bootstrap is designed for mobile first, I will be certain that my website functions well on mobile.
 
 [Back to Top](#table-of-contents)
 
@@ -121,23 +128,17 @@ Bootstrap provides various elements of CSS which is very helpful to keep a good 
 
 ## Wireframes
 
-I have decided to use Balsamic to create wireframes for my website. First I created a basic wireframe for desktop and later on for tablet and mobile. For my website I have decided to go for a 3 pages website which suits more with the current trends. The website will be easy to navigate by using the navigation bar.
+I have decided to use Balsamic to create wireframes for my website.
+For my website I have decided to go for a 1 page website which suits more with the current trends. 
+The website will be easy to navigate by using the navigation bar or by scrolling down the page.
 
 You can find my wireframes below:
 
 
-### [Home Page Desktop Wireframe](wireframes/home-desktop.png)
-### [Gallery Page Desktop Wireframe](wireframes/gallery-desktop.png)
-### [Join Now Page Desktop Wireframe](wireframes/join-desktop.png)
+### [Desktop Wireframe](wireframes/desktop-wireframe.png)
+### [Mobile Wireframe](wireframes/mobile-wireframe.png)
+### [Tablet Wireframe](wireframes/tablet-wireframe.png)
 
-
-### [Home Page Tablet Wireframe](wireframes/home-tablet.png)
-### [Gallery Page Tablet Wireframe](wireframes/gallery-tablet.png)
-### [Join Now Page Tablet Wireframe](wireframes/join-tablet.png)
-
-### [Home Page Mobile Wireframe](wireframes/home-mobile.png)
-### [Gallery Page Mobile Wireframe](wireframes/gallery-mobile.png)
-### [Join Now Page Mobile Wireframe](wireframes/join-mobile.png)
 
 [Back to Top](#table-of-contents)
 
@@ -149,25 +150,31 @@ You can find my wireframes below:
 
 #### Navigation
 
-For the navbar I have used flex box to create a responsive navbar.
+For the navbar I have used Boostrap to create a responsive navbar. 
+I have implemented as well the hamburger icon for mobile devices to be more user-friendly. 
+In order to navigate more easilty through the site, I have implemented to scroll spy option from bootstrap
+to let the user exactly know where they are located on the site. For this to work properly I have fixed the navbar on the top of the page.
 
 #### Hero Image
 
-I have decided to implement a hero image which spreads over 100% width of the screen. In order to make the user curious about what follows next, I decided to set the height at 70vh so show a little peek of what comes next. I also added a 1px solid black border to highlight the image.
+I have decided to implement a hero image which spreads over 100% width of the screen. In order to make the user curious about what follows next, I decided to set the height at 70vh so show a little peek of what comes next. 
 The image responds well when viewing on desktop, tablet and mobile.
-
-#### Home Page
-
 
 #### Gallery Page
 
-#### Join Page
+For the gallery I have implemented a carousel using bootstrap so this way the gallery will look good on desktop, tablet or mobile.
+
+### Contact
+
+At the contact section I have provided contact and location details on the bottom of the page. 
+Below the form there is a submit button which also triggers a modal to open up which gives feedback to the user that the form has been successfully submitted.
 
 ## Features to be implemented
 
-- Proper Hamburger button
-- Configure form submission
-- 
+- Form Validation
+- Terms and Conditions
+- Online Enrollment
+- Booking Classes Online
 
 [Back to Top](#table-of-contents)
 
@@ -178,6 +185,7 @@ The image responds well when viewing on desktop, tablet and mobile.
 
 * [HTML](https://en.wikipedia.org/wiki/HTML)
 * [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### **Libraries & Frameworks**
 * [Font Awesome](https://fontawesome.com/)
@@ -191,6 +199,10 @@ The image responds well when viewing on desktop, tablet and mobile.
 * [Balsamic](https://balsamiq.com/wireframes/)
 * [W3C HTML Validation Service](https://validator.w3.org/)
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+* [Color Hex](https://www.color-hex.com/)
+* [Am I Responsive](http://ami.responsivedesign.is/)
+* [Imgur](https://imgur.com/)
+* [Canva](https://canva.com/)
 
 [Back to Top](#table-of-contents)
 
@@ -200,11 +212,13 @@ The image responds well when viewing on desktop, tablet and mobile.
 
 * **Plan**    
 
-I want a navigation bar which will have only the logo and three menus to make it clear and easy to the user. Whenever clicked on one of the navigation links, it should take you where you want to go.
+    I want a navigation bar which will have only the logo and five menus to make it clear and easy to the user. Whenever clicked on one of the navigation links, it should take you where you want to go.
 
 
 * **Implementation**   
-I implemented the navigation bar using ....  
+I implemented the navigation bar using Bootstrap. This helps to give an overall structure and lay out to the navbar. 
+I have used CSS to overwrite the default settings and making the navbar in line with the overall webite. 
+I have also used Bootstrap to implement the hamburger sign for mobile devices.
 
 * **Test**    
 To test the navigation bar, I have click all the links to make sure it works properly. 
@@ -223,89 +237,76 @@ The test has passed all the criteria and works like planned.
 
 * **Plan**
 
-I want to include a contact form which the user can fill in when they want to reach out to the owners directly.
-They should insert their name, email address & phone number so the owners can easily get back to them. 
-They should also be able include a message with the questions they are having. 
+    I want to include a contact form which the user can fill in when they want to reach out to the gym directly.
+They should insert their name, email address so the gym can easily get back to them. 
+They can also be able include a message with the questions they are having. 
 Whenever they submit the form, I want a modal to open up in order to give feedback to the user that the form has been submitted correctly.
 
 * **Implementation** 
 
-In order to implement this, I have created a form in my index.html with 3 input fields, 1 textarea field and a submit button. 
-As it is a small & simple form, I have decided to not work with labels but placeholders instead. 
-I made sure that the form was styled according to the rest of the website. 
+    In order to implement this, I have created a form in my index.html with 2 input fields, 1 textarea field and a submit button. 
+As it is a small & simple form. I made sure that the form was styled according to the rest of the website. 
 
 * **Test**  
 
-When I tested the form, I noticed that the modal opened up eventhough the form was not filled in. 
-This gave the wrong feedback to the user. As I didn't have the required skills to implement form validation, I discussed this with my mentor. 
-My mentor wrote a small part of JavaScript which I was able to implement in order for the form not being able to be submitted without the required fields being filled in. 
-The data that is being inserted is currently not send anywhere as I don't have the knowledge yet but this is on the list with future features to be implemented. 
+    When I tested the form, I noticed that the modal opened up eventhough the form was not filled in. 
+This gave the wrong feedback to the user. The data that is being inserted is currently not send anywhere as I don't have the knowledge yet but this is on the list with future features to be implemented. 
 
 * **Result**  
 
-After implementing the JavaScript, the form worked as planned and provided the correct feedback to the user.
+    I still working on that.
 
 * **Verdict**  
 
-The form met all the criteria and works as planned. 
+
 [Back to Top](#table-of-contents)
-
-
-
-#### Form validation
 
 
 #### Hero Image
 
 * **Bug**    
 
-The hero image looked nice on normal browsers but the quality on safari on mobile was very bad. 
+The user is able to submit the form without filling in the fields. Modal always appears. This provides the wrong feedback to the user.
+
 * **Fix**  
 
-Tried various fixes but none of them seemed to be working. 
-After talking to my mentor, we changed the background-attachment to scroll on mobile and this resolved the bug. 
+
 * **Verdict**  
 
-Image now shows nicely on all devices and browsers.
-#### Hamburger dropdown menu
+
+#### Icons
+
+
+* **Bug**  
+The social media icons didn't show nicely on mobile. One appeared below the other 2 instead of all 3 next to each other.
+
+* **Fix**  
+Reduced the font-size and padding which resolved the issue immediately.
+
+* **Verdict** 
+Icons now show nicely next to each other on all devices and browsers.
 
 * **Bug**   
 
-On mobile devices when you click the hamburger icon, the menu appears nicely. 
+When you click the hamburger icon, the menu appears nicely. 
 Whenever you click on one of the links the dropdown menu doesn't dissapear but stays open. 
 This is not a good user experience.
 
 * **Verdict** 
 
-I did various research to have this resolved but at this moment I don't have the required skills yet. 
-This would be fixed in futher releases. 
 
-#### Icons
+#### Contact information
 
-* **Bug**
-
-The social media icons didn't show nicely on mobile. One appeared below the other 2 instead of all 3 next to each other.
-* **Fix** 
-
-Reduced the font-size and padding which resolved the issue immediately.
-* **Verdict** 
-
-Icons now show nicely next to each other on all devices and browsers.
-
-#### Navigation menu on smaller screensizes 
-
-* **Bug**    
-
-When the screen gets smaller, the fontsize of the navigation bar is too small and the collapse button goes off the screen. 
+* **Bug**  
+Contact information disappears on small screens
 
 * **Fix**  
 
-Removed the display: block and updated the width to 100% instead of 100vw like the assessor suggested. 
-Updated the font-size as well in order to be more easy to read. 
 
-* **Verdict**    
+* **Verdict** 
 
-Bug was resolved and navigation bar now works as planned and is more userfriendly. 
+
+ 
 [Back to Top](#table-of-contents)
 <a></a>
 
@@ -334,10 +335,20 @@ To run the project locally:
 
 I have used the following websites to gather ideas and information for the overall content of my website: 
 
+* [Blast Gym](https://josemachado-ce.github.io/Blast/)
+* [Flyefit](https://www.flyefit.ie/)
+* [Naturazy](https://anouksmet.github.io/Naturazy/)
+* [AtlasGym](https://atlasgyms.com/)
+* [Canva](https://canva.com/)
 
-From the first 2 website I have also used most of the images for my website. 
-
-I have used [Canva](https://canva.com/) and [](https://.com/) for my hero image and the picture of the owners.
+From [Canva](https://canva.com/) I have used all the images for my website. For the hero image I also built it on [Canva](https://canva.com/).
 
 ### Acknowledgements
 
+I want to thank mentor Simen for having the patience to teach and advise me during this project. He helped me with tips on topics and showed me solutions to problems in a simple and efficient way. For a student who does not have English as a first language, it can be challenging to teach something complex like coding.
+
+I would also like to thank my wife, for being patient while I was studying at night and for taking care of our baby while I had to study and develop the project.
+
+This was my very fisrt project and I'm glad I could finish it. 
+
+[Back to Top](#table-of-contents)
