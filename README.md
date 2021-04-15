@@ -270,7 +270,7 @@ This gave the wrong feedback to the user. The data that is being inserted is cur
 
 * **Bug**    
 
-The user is able to submit the form without filling in the fields. Modal always appears. This provides the wrong feedback to the user.
+    The user is able to submit the form without filling in the fields. Modal always appears. This provides the wrong feedback to the user.
 
 * **Fix**  
 
@@ -282,19 +282,19 @@ The user is able to submit the form without filling in the fields. Modal always 
 
 
 * **Bug**  
-The social media icons didn't show nicely on mobile. One appeared below the other 2 instead of all 3 next to each other.
+    The social media icons didn't show nicely on mobile. One appeared below the other 2 instead of all 3 next to each other.
 
 * **Fix**  
-Reduced the font-size and padding which resolved the issue immediately.
+    Reduced the font-size and padding which resolved the issue immediately.
 
 * **Verdict** 
-Icons now show nicely next to each other on all devices and browsers.
+    Icons now show nicely next to each other on all devices and browsers.
 
 * **Bug**   
 
-When you click the hamburger icon, the menu appears nicely. 
-Whenever you click on one of the links the dropdown menu doesn't dissapear but stays open. 
-This is not a good user experience.
+    When you click the hamburger icon, the menu appears nicely. 
+    Whenever you click on one of the links the dropdown menu doesn't dissapear but stays open. 
+    This is not a good user experience.
 
 * **Verdict** 
 
@@ -302,7 +302,7 @@ This is not a good user experience.
 #### Contact information
 
 * **Bug**  
-Contact information disappears on small screens
+    Contact information disappears on small screens
 
 * **Fix**  
 
@@ -312,23 +312,28 @@ Contact information disappears on small screens
 #### Lighthouse
 
 * **Bug**  
-The website perfomance is bad because of the images.
+    The website perfomance is bad because of the images.
 
 * **Fix**  
-Fisrt I tried to remove the images from the folder and add direct links but it didn't work.
-Now I replaced the PGN images for JPEG images.
+    Fisrt I tried to remove the images from the folder and add direct links but it didn't work.
+    Now I replaced the PGN images for JPEG images.
 
 * **Verdict** 
-The perfomance test has improved.
+    The perfomance test has improved.
 
 #### Navbar
 
 * **Bug**
-The navbar is superimposing the hero image.
+
+    The navbar is superimposing the hero image in mobile screens.
 
 * **Fix**  
- 
+
+    I have added padding-top to the body.
+
 * **Verdict** 
+
+    The hero image is showing perfectly on all devices.
 
 [Back to Top](#table-of-contents)
 <a></a>
