@@ -134,10 +134,9 @@ The website will be easy to navigate by using the navigation bar or by scrolling
 You can find my wireframes below:
 
 
-### [Desktop Wireframe](assets/images/logo.png)
-### [Mobile Wireframe](wireframes/mobile-wireframe.png)
-### [Tablet Wireframe](wireframes/tablet-wireframe.png)
-
+### [Desktop Wireframe](https://i.imgur.com/YHQdADI.png)
+### [Tablet Wireframe](https://i.imgur.com/XJtLCnN.png)
+### [Mobile Wireframe](https://i.imgur.com/6ZPmLS8.png)
 
 [Back to Top](#table-of-contents)
 
@@ -183,6 +182,8 @@ Below the form there is a submit button which also triggers a modal to open up w
 
 ## Technologies used
 
+---
+
 **Languages**
 
 * [HTML](https://en.wikipedia.org/wiki/HTML)
@@ -209,6 +210,8 @@ Below the form there is a submit button which also triggers a modal to open up w
 [Back to Top](#table-of-contents)
 
 ## **Testing**
+
+---
 
 ### Navigation bar
 
@@ -271,11 +274,8 @@ This gave the wrong feedback to the user. The data that is being inserted is cur
 
     The user is able to submit the form without filling in the fields. Modal always appears. This provides the wrong feedback to the user.
 
-* **Fix**  
-
-
-* **Verdict**  
-
+* **Verdict**   
+    As I don't have the knowledge to fix it, I'll add to the features to be implement list.
 
 #### Icons
 
@@ -286,8 +286,11 @@ This gave the wrong feedback to the user. The data that is being inserted is cur
 * **Fix**  
     Reduced the font-size and padding which resolved the issue immediately.
 
-* **Verdict** 
+* **Verdict**
+
     Icons now show nicely next to each other on all devices and browsers.
+
+#### Hamburger Button
 
 * **Bug**   
 
@@ -297,10 +300,12 @@ This gave the wrong feedback to the user. The data that is being inserted is cur
 
 * **Verdict** 
 
+    As I don't have the knowledge to fix it, I'll add to the features to be implement list.
 
 #### Contact information
 
 * **Bug**  
+
     Contact information disappears on small screens
 
 * **Fix**  
@@ -308,18 +313,22 @@ This gave the wrong feedback to the user. The data that is being inserted is cur
     I have added media queries to the contact information.
 
 * **Verdict** 
+
     The contact information is showing perfectly on all screens.
 
 #### Lighthouse
 
 * **Bug**  
+
     The website perfomance is bad because of the images.
 
 * **Fix**  
-    Fisrt I tried to remove the images from the folder and add direct links but it didn't work.
+
+    First I tried to remove the images from the folder and add direct links but it didn't work.
     Now I replaced the PGN images for JPEG images.
 
 * **Verdict** 
+
     The perfomance test has improved.
 
 #### Navbar
@@ -344,10 +353,11 @@ This gave the wrong feedback to the user. The data that is being inserted is cur
 This project was deployed via GitHub by executing the following steps.
 After writing the code, committing and pushing it to GitHub:
 1. Navigate to the repository on github and click **Settings**.
-1. From there, go to the **Source section** within the Github Pages section.
+1. From there, go to the **GitHub Pages** within the Github Pages section.
 1. Select **master branch** on the dropdown menu, and click save.
 1. Now the website is live on **https://luizmontagner.github.io/Atlas-Gym/**
 1. Any time commits and pushes are sent to Github, the Github Pages site should update shortly after.
+
 To run the project locally:
 1. Click the **green Clone or Download button** on the Github Repository
 1. Using the **Clone with HTTPS option**, copy the link displayed.
