@@ -315,8 +315,10 @@ The website perfomance is bad because of the images.
 
 * **Fix**  
 Fisrt I tried to remove the images from the folder and add direct links but it didn't work.
+Now I replaced the PGN images for JPEG images.
 
 * **Verdict** 
+The perfomance test has improved.
  
 [Back to Top](#table-of-contents)
 <a></a>
