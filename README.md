@@ -308,7 +308,15 @@ Contact information disappears on small screens
 
 * **Verdict** 
 
+#### Lighthouse
 
+* **Bug**  
+The website perfomance is bad because of the images.
+
+* **Fix**  
+Fisrt I tried to remove the images from the folder and add direct links but it didn't work.
+
+* **Verdict** 
  
 [Back to Top](#table-of-contents)
 <a></a>
