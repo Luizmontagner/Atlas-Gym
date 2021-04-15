@@ -157,8 +157,11 @@ to let the user exactly know where they are located on the site. For this to wor
 
 #### Hero Image
 
-I have decided to implement a hero image which spreads over 100% width of the screen. In order to make the user curious about what follows next, I decided to set the height at 70vh so show a little peek of what comes next. 
+I have decided to implement a hero image which spreads over 100% width of the screen. 
 The image responds well when viewing on desktop, tablet and mobile.
+
+#### Gym Classes
+For the gmy classes I have used [Bootstrap Classes](https://getbootstrap.com/) in order to make it responsive to all screen resolutions.
 
 #### Gallery Page
 
