@@ -306,8 +306,10 @@ This gave the wrong feedback to the user. The data that is being inserted is cur
 
 * **Fix**  
 
+    I have added media queries to the contact information.
 
 * **Verdict** 
+    The contact information is showing perfectly on all screens.
 
 #### Lighthouse
 
