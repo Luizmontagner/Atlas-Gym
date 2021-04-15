@@ -78,7 +78,7 @@ Thank you for visiting my project! If you have any feedback or questions, head o
 #### **Requirements**
 
 - Easy to navigate by using the navigation menu.
-- relevant content about facilities.
+- Relevant content about facilities.
 - Appealing visual elements.
 - Clear information about prices and policies.
 
@@ -105,9 +105,7 @@ In the text of the cards, I used the font "Roboto" which the own [Google Fonts](
 <a></a>
 #### Icons
 
-I have used [Font Awesome](https://fontawesome.com/ "Font Awesome") to implement the icons to social media area. I have styled the icons according the website colors. The navigation menu will transform into a hamburger icon to make it more simple to use on mobile.
-
-
+I have used [Font Awesome](https://fontawesome.com/ "Font Awesome") to implement the icons to social media area. I have styled the icons according the website colors. The navigation menu will transform into a hamburger icon to make it more simple to use on tablet and mobile.
 
 #### Colors
 
@@ -120,7 +118,8 @@ You can view my color scheme [here](https://colorhunt.co/palette/272408).
 
 #### Structure
 
-I have chosen to use [Bootstrap](https://getbootstrap.com/) to create an overall structure for my website. Bootstrap provides various elements of CSS and Javascript which is very helpful to keep a good structure on your page. As Bootstrap is designed for mobile first, I will be certain that my website functions well on mobile.
+I have chosen to use [Bootstrap](https://getbootstrap.com/) to create an overall structure for my website. 
+Bootstrap provides various elements of CSS and Javascript which is very helpful to keep a good structure on your page.
 
 [Back to Top](#table-of-contents)
 
@@ -135,7 +134,7 @@ The website will be easy to navigate by using the navigation bar or by scrolling
 You can find my wireframes below:
 
 
-### [Desktop Wireframe](wireframes/desktop-wireframe.png)
+### [Desktop Wireframe](assets/images/logo.png)
 ### [Mobile Wireframe](wireframes/mobile-wireframe.png)
 ### [Tablet Wireframe](wireframes/tablet-wireframe.png)
 
