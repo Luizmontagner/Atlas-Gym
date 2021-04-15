@@ -204,6 +204,13 @@ body{
     color: #fff;
     font-size: 25px;
     font-weight: 700;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contact-alignment{
+    margin-left: 60px;
+    margin-bottom: 60px;
 }
 
 .email {
@@ -272,7 +279,21 @@ footer{
 } 
 
 
+/* Media Queries */
 
+@media (min-width: 320px) {
+
+    .contact-alignment {
+    margin: 0;
+    padding: 0;
+    }
+
+    .contact {
+    margin-left: 40px;
+    padding: 5px;
+    }
+    }
+}
 
 
 
