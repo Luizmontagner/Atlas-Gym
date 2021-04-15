@@ -264,8 +264,9 @@ This gave the wrong feedback to the user. The data that is being inserted is cur
 
 [Back to Top](#table-of-contents)
 
+## Bugs
 
-#### Hero Image
+#### Contact Form
 
 * **Bug**    
 
@@ -319,7 +320,16 @@ Now I replaced the PGN images for JPEG images.
 
 * **Verdict** 
 The perfomance test has improved.
+
+#### Navbar
+
+* **Bug**
+The navbar is superimposing the hero image.
+
+* **Fix**  
  
+* **Verdict** 
+
 [Back to Top](#table-of-contents)
 <a></a>
 
